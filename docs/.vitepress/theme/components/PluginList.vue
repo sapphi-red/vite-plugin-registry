@@ -268,6 +268,7 @@ const activeFilters = computed(() => {
   gap: 1rem;
   max-width: 1400px;
   margin: 3rem auto;
+  padding: 0 1rem;
 }
 
 .plugin-search-container {
