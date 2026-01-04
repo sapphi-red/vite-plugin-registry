@@ -175,7 +175,9 @@ async function collectPlugins(
 
   let completed = 0
   const startTime = Date.now()
+  const isInteractive = process.stdout.isTTY
   const updateProgress = () => {
+    if (!isInteractive) return
     const pct = Math.round((completed / total) * 100)
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
     process.stdout.write(`\r  Progress: ${completed}/${total} (${pct}%) - ${elapsed}s`)
@@ -192,7 +194,9 @@ async function collectPlugins(
 
   // Clear progress line and print final result
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
-  process.stdout.write('\r' + ' '.repeat(60) + '\r')
+  if (isInteractive) {
+    process.stdout.write('\r' + ' '.repeat(60) + '\r')
+  }
 
   const plugins = results.filter((p): p is RegistryPlugin => p !== null)
   console.log(`Collected ${plugins.length} plugins in ${elapsed}s`)
