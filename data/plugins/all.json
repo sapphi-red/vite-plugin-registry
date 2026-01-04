@@ -3481,6 +3481,36 @@
     "weeklyDownloads": 5794
   },
   {
+    "name": "@vite-pwa/sveltekit",
+    "description": "Zero-config PWA for SvelteKit",
+    "keywords": [
+      "sveltekit",
+      "workbox",
+      "pwa",
+      "vite",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@vite-pwa/sveltekit",
+      "repository": "https://github.com/vite-pwa/sveltekit",
+      "homepage": "https://github.com/vite-pwa/sveltekit#readme"
+    },
+    "version": "1.1.0",
+    "updatedAt": "2025-11-27T22:24:27.991Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 11915
+  },
+  {
     "name": "vitepress-plugin-llms",
     "description": "📜 A VitePress plugin for generating LLM-friendly documentation",
     "keywords": [
@@ -3511,36 +3541,6 @@
       }
     },
     "weeklyDownloads": 6507
-  },
-  {
-    "name": "@vite-pwa/sveltekit",
-    "description": "Zero-config PWA for SvelteKit",
-    "keywords": [
-      "sveltekit",
-      "workbox",
-      "pwa",
-      "vite",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@vite-pwa/sveltekit",
-      "repository": "https://github.com/vite-pwa/sveltekit",
-      "homepage": "https://github.com/vite-pwa/sveltekit#readme"
-    },
-    "version": "1.1.0",
-    "updatedAt": "2025-11-27T22:24:27.991Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 11915
   },
   {
     "name": "@dyad-sh/react-vite-component-tagger",
@@ -4625,6 +4625,35 @@
     "weeklyDownloads": 4177
   },
   {
+    "name": "vite-plugin-relay-lite",
+    "description": "Vite plugin for more convenient Relay experience",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "relay"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-relay-lite",
+      "repository": "https://github.com/cometkim/vite-plugin-relay-lite",
+      "homepage": "https://github.com/cometkim/vite-plugin-relay-lite"
+    },
+    "version": "0.12.0",
+    "updatedAt": "2025-10-30T06:07:35.975Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 2472
+  },
+  {
     "name": "vite-plugin-svgo",
     "description": "Vite plugin to import and compress svg files with SVGO",
     "keywords": [
@@ -4653,35 +4682,6 @@
       }
     },
     "weeklyDownloads": 3729
-  },
-  {
-    "name": "vite-plugin-relay-lite",
-    "description": "Vite plugin for more convenient Relay experience",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "relay"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-relay-lite",
-      "repository": "https://github.com/cometkim/vite-plugin-relay-lite",
-      "homepage": "https://github.com/cometkim/vite-plugin-relay-lite"
-    },
-    "version": "0.12.0",
-    "updatedAt": "2025-10-30T06:07:35.975Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 2472
   },
   {
     "name": "vite-plugin-pug-transformer",
@@ -6923,34 +6923,6 @@
     "weeklyDownloads": 1121
   },
   {
-    "name": "vite-remark-html",
-    "description": "Process markdown with remark-html",
-    "keywords": [
-      "vite",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-remark-html",
-      "repository": "https://github.com/alloc/vite-remark-html",
-      "homepage": "https://github.com/alloc/vite-remark-html#readme"
-    },
-    "version": "1.1.1",
-    "updatedAt": "2021-07-30T22:31:29.790Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">2.0.0-0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 455
-  },
-  {
     "name": "vite-plugin-vue-facing-decorator-hmr",
     "description": "Fix HMR support for Vue components with vue-facing-decorator",
     "keywords": [
@@ -6978,6 +6950,34 @@
       }
     },
     "weeklyDownloads": 1294
+  },
+  {
+    "name": "vite-remark-html",
+    "description": "Process markdown with remark-html",
+    "keywords": [
+      "vite",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-remark-html",
+      "repository": "https://github.com/alloc/vite-remark-html",
+      "homepage": "https://github.com/alloc/vite-remark-html#readme"
+    },
+    "version": "1.1.1",
+    "updatedAt": "2021-07-30T22:31:29.790Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">2.0.0-0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 455
   },
   {
     "name": "vite-plugin-fast-react-svg",
@@ -8767,6 +8767,32 @@
     "weeklyDownloads": 242
   },
   {
+    "name": "vite-plugin-typed-css-modules",
+    "description": "Generate type definition files for css modules",
+    "keywords": [
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-typed-css-modules",
+      "repository": "https://github.com/jhwz/vite-plugin-typed-css-modules",
+      "homepage": "https://github.com/jhwz/vite-plugin-typed-css-modules#readme"
+    },
+    "version": "0.5.3",
+    "updatedAt": "2026-01-02T09:38:22.958Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 566
+  },
+  {
     "name": "@inox-tools/inline-mod",
     "description": "Define a virtual module inline with any reference to buildtime values",
     "keywords": [
@@ -8792,32 +8818,6 @@
       }
     },
     "weeklyDownloads": 268
-  },
-  {
-    "name": "vite-plugin-typed-css-modules",
-    "description": "Generate type definition files for css modules",
-    "keywords": [
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-typed-css-modules",
-      "repository": "https://github.com/jhwz/vite-plugin-typed-css-modules",
-      "homepage": "https://github.com/jhwz/vite-plugin-typed-css-modules#readme"
-    },
-    "version": "0.5.3",
-    "updatedAt": "2026-01-02T09:38:22.958Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 566
   },
   {
     "name": "vite-plugin-stylex-dev",
@@ -9769,6 +9769,34 @@
     "weeklyDownloads": 122
   },
   {
+    "name": "vite-plugin-babel-import",
+    "description": "A vite import plugin for babel.",
+    "keywords": [
+      "babel-plugin",
+      "vite-plugin",
+      "vite"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-babel-import",
+      "repository": "https://github.com/0ahz/vite-plugin-babel-import",
+      "homepage": "https://github.com/0ahz/vite-plugin-babel-import#readme"
+    },
+    "version": "2.0.5",
+    "updatedAt": "2021-06-09T14:55:43.935Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 276
+  },
+  {
     "name": "vite-plugin-lottie",
     "description": "A vite plugin for bundle lottie files.",
     "keywords": [
@@ -9797,34 +9825,6 @@
       }
     },
     "weeklyDownloads": 370
-  },
-  {
-    "name": "vite-plugin-babel-import",
-    "description": "A vite import plugin for babel.",
-    "keywords": [
-      "babel-plugin",
-      "vite-plugin",
-      "vite"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-babel-import",
-      "repository": "https://github.com/0ahz/vite-plugin-babel-import",
-      "homepage": "https://github.com/0ahz/vite-plugin-babel-import#readme"
-    },
-    "version": "2.0.5",
-    "updatedAt": "2021-06-09T14:55:43.935Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 276
   },
   {
     "name": "vite-preload",
@@ -10078,6 +10078,38 @@
     "weeklyDownloads": 221
   },
   {
+    "name": "@rayburst/cli",
+    "description": "Rayburst - Automatic code analysis for TypeScript/JavaScript projects via Vite plugin",
+    "keywords": [
+      "rayburst",
+      "vite-plugin",
+      "code-analysis",
+      "typescript",
+      "javascript",
+      "dependency-graph"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@rayburst/cli",
+      "repository": "git+https://github.com/rayburst/rayburst-cli.git",
+      "homepage": "https://rayburst.app"
+    },
+    "version": "0.4.4",
+    "updatedAt": "2025-12-28T16:47:17.374Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 2112
+  },
+  {
     "name": "@wroud/vite-plugin-tsc",
     "description": "A Vite plugin that uses TypeScript's tsc to transpile TypeScript sources for seamless bundling.",
     "keywords": [
@@ -10110,38 +10142,6 @@
       }
     },
     "weeklyDownloads": 402
-  },
-  {
-    "name": "@rayburst/cli",
-    "description": "Rayburst - Automatic code analysis for TypeScript/JavaScript projects via Vite plugin",
-    "keywords": [
-      "rayburst",
-      "vite-plugin",
-      "code-analysis",
-      "typescript",
-      "javascript",
-      "dependency-graph"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@rayburst/cli",
-      "repository": "git+https://github.com/rayburst/rayburst-cli.git",
-      "homepage": "https://rayburst.app"
-    },
-    "version": "0.4.4",
-    "updatedAt": "2025-12-28T16:47:17.374Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 2112
   },
   {
     "name": "vite-plugin-favicon",
@@ -10650,6 +10650,36 @@
     "weeklyDownloads": 195
   },
   {
+    "name": "vite-plugin-info",
+    "description": "Export build information as Vite virutal module",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "git",
+      "CI"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-info",
+      "repository": "https://github.com/yjl9903/vite-plugin-info",
+      "homepage": "https://github.com/yjl9903/vite-plugin-info#readme"
+    },
+    "version": "0.4.1",
+    "updatedAt": "2023-06-20T15:55:46.149Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.9.13 || ^3.0.0 || ^4.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 250
+  },
+  {
     "name": "vite-plugin-ts-nameof",
     "description": "Give Vite the ability to resolve 'nameof' calls in TypeScript",
     "keywords": [
@@ -10682,36 +10712,6 @@
       }
     },
     "weeklyDownloads": 204
-  },
-  {
-    "name": "vite-plugin-info",
-    "description": "Export build information as Vite virutal module",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "git",
-      "CI"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-info",
-      "repository": "https://github.com/yjl9903/vite-plugin-info",
-      "homepage": "https://github.com/yjl9903/vite-plugin-info#readme"
-    },
-    "version": "0.4.1",
-    "updatedAt": "2023-06-20T15:55:46.149Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^2.9.13 || ^3.0.0 || ^4.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 250
   },
   {
     "name": "@ryoppippi/vite-plugin-cloudflare-redirect",
@@ -10801,6 +10801,35 @@
     "weeklyDownloads": 51
   },
   {
+    "name": "vite-plugin-react-router-amplify-hosting",
+    "description": "This package is vite plugin for React Router SSR on Amplify Hosting.",
+    "keywords": [
+      "react-router",
+      "vite-plugin",
+      "amplify"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-react-router-amplify-hosting",
+      "repository": "https://github.com/fossamagna/react-router-amplify",
+      "homepage": "https://github.com/fossamagna/react-router-amplify/blob/main/packages/vite-plugin-react-router-amplify-hosting/README.md"
+    },
+    "version": "0.6.0",
+    "updatedAt": "2026-01-03T14:39:35.247Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^5.1.0 || ^6.0.0 || ^7.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 244
+  },
+  {
     "name": "@raegen/vite-plugin-vitest-cache",
     "description": "Run Vitest with test result caching.",
     "keywords": [
@@ -10829,35 +10858,6 @@
       }
     },
     "weeklyDownloads": 113
-  },
-  {
-    "name": "vite-plugin-react-router-amplify-hosting",
-    "description": "This package is vite plugin for React Router SSR on Amplify Hosting.",
-    "keywords": [
-      "react-router",
-      "vite-plugin",
-      "amplify"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-react-router-amplify-hosting",
-      "repository": "https://github.com/fossamagna/react-router-amplify",
-      "homepage": "https://github.com/fossamagna/react-router-amplify/blob/main/packages/vite-plugin-react-router-amplify-hosting/README.md"
-    },
-    "version": "0.6.0",
-    "updatedAt": "2026-01-03T14:39:35.247Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^5.1.0 || ^6.0.0 || ^7.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 244
   },
   {
     "name": "@urbit/vite-plugin-urbit",
@@ -12194,6 +12194,34 @@
     "weeklyDownloads": 179
   },
   {
+    "name": "vite-plugin-twig-loader",
+    "description": "vite plugin to load twig files",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "twig",
+      "loader"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-twig-loader",
+      "repository": "https://github.com/dark-kitt/vite-plugin-twig-loader"
+    },
+    "version": "0.0.6",
+    "updatedAt": "2022-05-14T05:35:17.378Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 116
+  },
+  {
     "name": "@idleberg/vite-plugin-devcert",
     "description": "A Vite plugin to generate trusted SSL/TLS certificates for local development",
     "keywords": [
@@ -12223,34 +12251,6 @@
       }
     },
     "weeklyDownloads": 176
-  },
-  {
-    "name": "vite-plugin-twig-loader",
-    "description": "vite plugin to load twig files",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "twig",
-      "loader"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-twig-loader",
-      "repository": "https://github.com/dark-kitt/vite-plugin-twig-loader"
-    },
-    "version": "0.0.6",
-    "updatedAt": "2022-05-14T05:35:17.378Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 116
   },
   {
     "name": "whooksh",
@@ -13078,35 +13078,6 @@
     "weeklyDownloads": 124
   },
   {
-    "name": "vite-plugin-mpa-plus",
-    "description": "More flexible MPA (multipage application) supports html template",
-    "keywords": [
-      "vite",
-      "html",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-mpa-plus",
-      "repository": "https://github.com/yzydeveloper/vite-plugin-mpa-plus",
-      "homepage": "https://github.com/yzydeveloper/vite-plugin-mpa-plus"
-    },
-    "version": "0.6.1",
-    "updatedAt": "2025-09-17T06:34:40.428Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=4.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 248
-  },
-  {
     "name": "vite-plugin-ali-oss",
     "description": "Upload the production files bundled in the project to Ali OSS, except for html",
     "keywords": [
@@ -13134,6 +13105,35 @@
       }
     },
     "weeklyDownloads": 195
+  },
+  {
+    "name": "vite-plugin-mpa-plus",
+    "description": "More flexible MPA (multipage application) supports html template",
+    "keywords": [
+      "vite",
+      "html",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-mpa-plus",
+      "repository": "https://github.com/yzydeveloper/vite-plugin-mpa-plus",
+      "homepage": "https://github.com/yzydeveloper/vite-plugin-mpa-plus"
+    },
+    "version": "0.6.1",
+    "updatedAt": "2025-09-17T06:34:40.428Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=4.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 248
   },
   {
     "name": "@pinegrow/vite-plugin",
@@ -13474,6 +13474,35 @@
     "weeklyDownloads": 16
   },
   {
+    "name": "@ssrx/vite",
+    "description": "A Vite plugin that improves the DX of developing SSR apps.",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "ssr"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@ssrx/vite",
+      "repository": "https://github.com/marbemac/ssrx",
+      "homepage": "https://github.com/marbemac/ssrx#readme"
+    },
+    "version": "0.8.0",
+    "updatedAt": "2025-07-14T01:03:03.745Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=4"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 149
+  },
+  {
     "name": "vite-plugin-react-markdown",
     "description": "Compile Markdown to React component",
     "keywords": [
@@ -13502,35 +13531,6 @@
       }
     },
     "weeklyDownloads": 179
-  },
-  {
-    "name": "@ssrx/vite",
-    "description": "A Vite plugin that improves the DX of developing SSR apps.",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "ssr"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@ssrx/vite",
-      "repository": "https://github.com/marbemac/ssrx",
-      "homepage": "https://github.com/marbemac/ssrx#readme"
-    },
-    "version": "0.8.0",
-    "updatedAt": "2025-07-14T01:03:03.745Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=4"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 149
   },
   {
     "name": "vite-plugin-generate-package-json",
@@ -13593,35 +13593,6 @@
     "weeklyDownloads": 50
   },
   {
-    "name": "vite-plugin-resolve-umd-format",
-    "description": "Vite plugin that use '.js' extension for the UMD format",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "umd"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-resolve-umd-format",
-      "repository": "https://github.com/bent10/vite-plugins",
-      "homepage": "https://github.com/bent10/vite-plugins/tree/main/packages/plugin-resolve-umd-format"
-    },
-    "version": "1.0.0",
-    "updatedAt": "2023-10-26T03:26:28.068Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=4.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 147
-  },
-  {
     "name": "@ch1ffa/vite-plugin-relay",
     "description": "A vite plugin for relay",
     "keywords": [
@@ -13653,6 +13624,35 @@
       }
     },
     "weeklyDownloads": 72
+  },
+  {
+    "name": "vite-plugin-resolve-umd-format",
+    "description": "Vite plugin that use '.js' extension for the UMD format",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "umd"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-resolve-umd-format",
+      "repository": "https://github.com/bent10/vite-plugins",
+      "homepage": "https://github.com/bent10/vite-plugins/tree/main/packages/plugin-resolve-umd-format"
+    },
+    "version": "1.0.0",
+    "updatedAt": "2023-10-26T03:26:28.068Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=4.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 147
   },
   {
     "name": "olova-router",
@@ -14301,36 +14301,6 @@
     "weeklyDownloads": 633
   },
   {
-    "name": "vite-plugin-html-template-mpa",
-    "description": "html template map for vite",
-    "keywords": [
-      "vite-plugin",
-      "mpa",
-      "MPA",
-      "multi-page",
-      "html-template"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-html-template-mpa",
-      "repository": "ssh://git@github.com/Miofly/vite-plugin-html-template-mpa",
-      "homepage": "https://github.com/Miofly/vite-plugin-html-template-mpa"
-    },
-    "version": "1.0.33",
-    "updatedAt": "2025-11-27T03:07:08.057Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 41
-  },
-  {
     "name": "vite-plugin-setting-css-module",
     "description": "------- 实现vite项目css模块化",
     "keywords": [
@@ -14401,24 +14371,22 @@
     "weeklyDownloads": 127
   },
   {
-    "name": "@open-editor/vite",
-    "description": "🚀 A vite plugin for fast find source code.",
+    "name": "vite-plugin-html-template-mpa",
+    "description": "html template map for vite",
     "keywords": [
-      "open-editor",
       "vite-plugin",
-      "vue-devtools",
-      "nuxt-devtools",
-      "react-devtools",
-      "web-devtools",
-      "devtools"
+      "mpa",
+      "MPA",
+      "multi-page",
+      "html-template"
     ],
     "links": {
-      "npm": "https://www.npmjs.com/package/@open-editor/vite",
-      "repository": "https://github.com/zjxxxxxxxxx/open-editor",
-      "homepage": "https://github.com/zjxxxxxxxxx/open-editor#readme"
+      "npm": "https://www.npmjs.com/package/vite-plugin-html-template-mpa",
+      "repository": "ssh://git@github.com/Miofly/vite-plugin-html-template-mpa",
+      "homepage": "https://github.com/Miofly/vite-plugin-html-template-mpa"
     },
-    "version": "0.9.4",
-    "updatedAt": "2025-04-30T13:13:49.606Z",
+    "version": "1.0.33",
+    "updatedAt": "2025-11-27T03:07:08.057Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -14430,7 +14398,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 57
+    "weeklyDownloads": 41
   },
   {
     "name": "@vertesia/plugin-builder",
@@ -14704,37 +14672,6 @@
     "weeklyDownloads": 50
   },
   {
-    "name": "vite-plugin-tanstack-router-sitemap",
-    "description": "Vite plugin to generate sitemaps from TanStack Router route trees",
-    "keywords": [
-      "vite-plugin",
-      "sitemap",
-      "tanstack",
-      "router",
-      "vite"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-tanstack-router-sitemap",
-      "repository": "https://github.com/rfedoruk/vite-plugin-react-tanstack-router-sitemap",
-      "homepage": "https://github.com/rfedoruk/vite-plugin-react-tanstack-router-sitemap#readme"
-    },
-    "version": "1.1.0",
-    "updatedAt": "2025-01-17T22:18:41.652Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^4.0.0 || ^5.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 21
-  },
-  {
     "name": "vite-plugin-watch-node-modules",
     "description": "A plugin to watch for changes in matched packages inside any 'node_modules' folder and trigger a reload in Vite.",
     "keywords": [
@@ -14765,6 +14702,37 @@
       }
     },
     "weeklyDownloads": 19
+  },
+  {
+    "name": "vite-plugin-tanstack-router-sitemap",
+    "description": "Vite plugin to generate sitemaps from TanStack Router route trees",
+    "keywords": [
+      "vite-plugin",
+      "sitemap",
+      "tanstack",
+      "router",
+      "vite"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-tanstack-router-sitemap",
+      "repository": "https://github.com/rfedoruk/vite-plugin-react-tanstack-router-sitemap",
+      "homepage": "https://github.com/rfedoruk/vite-plugin-react-tanstack-router-sitemap#readme"
+    },
+    "version": "1.1.0",
+    "updatedAt": "2025-01-17T22:18:41.652Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^4.0.0 || ^5.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 21
   },
   {
     "name": "vite-plugin-dlight",
@@ -15165,6 +15133,38 @@
     "weeklyDownloads": 87
   },
   {
+    "name": "@ensdomains/vite-plugin-i18next-loader",
+    "description": "Vite plugin loader for client embedded i18next locales composited from one to many json or yaml files.",
+    "keywords": [
+      "vite-plugin",
+      "loader",
+      "i18next",
+      "locales",
+      "yaml",
+      "json"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@ensdomains/vite-plugin-i18next-loader",
+      "repository": "https://github.com/ensdomains/vite-plugin-i18next-loader",
+      "homepage": "https://github.com/ensdomains/vite-plugin-i18next-loader"
+    },
+    "version": "4.0.3",
+    "updatedAt": "2025-05-20T16:57:55.824Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=3.1.6"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 3
+  },
+  {
     "name": "@shaojc/vite-plugin-vue-inspector",
     "description": "jump to local IDE source code while click the element of browser automatically.",
     "keywords": [
@@ -15226,38 +15226,6 @@
       }
     },
     "weeklyDownloads": 106
-  },
-  {
-    "name": "@ensdomains/vite-plugin-i18next-loader",
-    "description": "Vite plugin loader for client embedded i18next locales composited from one to many json or yaml files.",
-    "keywords": [
-      "vite-plugin",
-      "loader",
-      "i18next",
-      "locales",
-      "yaml",
-      "json"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@ensdomains/vite-plugin-i18next-loader",
-      "repository": "https://github.com/ensdomains/vite-plugin-i18next-loader",
-      "homepage": "https://github.com/ensdomains/vite-plugin-i18next-loader"
-    },
-    "version": "4.0.3",
-    "updatedAt": "2025-05-20T16:57:55.824Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=3.1.6"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 3
   },
   {
     "name": "@vinxi/vite-plugin-inspect",
@@ -15749,6 +15717,38 @@
     "weeklyDownloads": 117
   },
   {
+    "name": "@open-editor/vite",
+    "description": "🚀 A vite plugin for fast find source code.",
+    "keywords": [
+      "open-editor",
+      "vite-plugin",
+      "vue-devtools",
+      "nuxt-devtools",
+      "react-devtools",
+      "web-devtools",
+      "devtools"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@open-editor/vite",
+      "repository": "https://github.com/zjxxxxxxxxx/open-editor",
+      "homepage": "https://github.com/zjxxxxxxxxx/open-editor#readme"
+    },
+    "version": "0.9.4",
+    "updatedAt": "2025-04-30T13:13:49.606Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 37
+  },
+  {
     "name": "@wuchale/jsx",
     "description": "Protobuf-like i18n from plain code: JSX adapter",
     "keywords": [
@@ -15796,34 +15796,6 @@
     "weeklyDownloads": 162
   },
   {
-    "name": "@rio-cloud/vite-plugin-frontend-license-check",
-    "description": "Makes consistent license checking and reporting easier",
-    "keywords": [
-      "license",
-      "rollup-plugin",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@rio-cloud/vite-plugin-frontend-license-check",
-      "homepage": "https://bitbucket.collaboration-man.com/projects/RIOFRONT/repos/vite-plugin-frontend-license-check"
-    },
-    "version": "1.1.1",
-    "updatedAt": "2025-12-15T11:30:59.943Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=7.1"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 4
-  },
-  {
     "name": "vite-vue-plugin-html",
     "description": "A plugin for vite to Minimize index.html and use lodash.template template syntax in index.html",
     "keywords": [
@@ -15852,6 +15824,34 @@
       }
     },
     "weeklyDownloads": 123
+  },
+  {
+    "name": "@rio-cloud/vite-plugin-frontend-license-check",
+    "description": "Makes consistent license checking and reporting easier",
+    "keywords": [
+      "license",
+      "rollup-plugin",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@rio-cloud/vite-plugin-frontend-license-check",
+      "homepage": "https://bitbucket.collaboration-man.com/projects/RIOFRONT/repos/vite-plugin-frontend-license-check"
+    },
+    "version": "1.1.1",
+    "updatedAt": "2025-12-15T11:30:59.943Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=7.1"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 4
   },
   {
     "name": "@opentiny/vue-vite-import",
@@ -17044,6 +17044,36 @@
     "weeklyDownloads": 76
   },
   {
+    "name": "vite-plugin-next-react-router",
+    "description": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zoubingwu/vite-plugin-next-react-router/test.yaml) ![npm](https://img.shields.io/npm/v/vite-plugin-next-react-router)",
+    "keywords": [
+      "vite-plugin",
+      "react-router",
+      "router",
+      "react"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-next-react-router",
+      "repository": "https://github.com/zoubingwu/vite-plugin-next-react-router",
+      "homepage": "https://github.com/zoubingwu/vite-plugin-next-react-router"
+    },
+    "version": "0.7.1",
+    "updatedAt": "2023-04-20T02:37:16.600Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=2"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 83
+  },
+  {
     "name": "vite-plugin-ssr-ssg",
     "description": "Vite plugin for SSR and SSG",
     "keywords": [
@@ -17074,36 +17104,6 @@
       }
     },
     "weeklyDownloads": 124
-  },
-  {
-    "name": "vite-plugin-next-react-router",
-    "description": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zoubingwu/vite-plugin-next-react-router/test.yaml) ![npm](https://img.shields.io/npm/v/vite-plugin-next-react-router)",
-    "keywords": [
-      "vite-plugin",
-      "react-router",
-      "router",
-      "react"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-next-react-router",
-      "repository": "https://github.com/zoubingwu/vite-plugin-next-react-router",
-      "homepage": "https://github.com/zoubingwu/vite-plugin-next-react-router"
-    },
-    "version": "0.7.1",
-    "updatedAt": "2023-04-20T02:37:16.600Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=2"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 83
   },
   {
     "name": "sveltekit-openapi-generator",
@@ -17388,36 +17388,6 @@
     "weeklyDownloads": 18
   },
   {
-    "name": "@qiaoge/vite-plugin-elnglegacy",
-    "description": "Vite 一站式兼容插件（JS+CSS 自动兼容旧浏览器，支持 Chrome ≥80+, 也可以自定义配置适配目标）",
-    "keywords": [
-      "vite-plugin",
-      "vite-compat",
-      "legacy",
-      "css-compat",
-      "autoprefixer",
-      "core-js"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@qiaoge/vite-plugin-elnglegacy"
-    },
-    "version": "1.2.0",
-    "updatedAt": "2025-12-24T14:57:37.835Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 392
-  },
-  {
     "name": "vite-plugin-typenv",
     "description": "A Vite plugin to use JS/TS files for environment variables instead of .env files",
     "keywords": [
@@ -17447,6 +17417,36 @@
       }
     },
     "weeklyDownloads": 8
+  },
+  {
+    "name": "@qiaoge/vite-plugin-elnglegacy",
+    "description": "Vite 一站式兼容插件（JS+CSS 自动兼容旧浏览器，支持 Chrome ≥80+, 也可以自定义配置适配目标）",
+    "keywords": [
+      "vite-plugin",
+      "vite-compat",
+      "legacy",
+      "css-compat",
+      "autoprefixer",
+      "core-js"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@qiaoge/vite-plugin-elnglegacy"
+    },
+    "version": "1.2.0",
+    "updatedAt": "2025-12-24T14:57:37.835Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 392
   },
   {
     "name": "vite-plugin-version",
@@ -19147,6 +19147,33 @@
     "weeklyDownloads": 30
   },
   {
+    "name": "@app-config/vite",
+    "description": "Vite plugin for @app-config",
+    "keywords": [
+      "vite-plugin",
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@app-config/vite",
+      "repository": "https://github.com/launchcodedev/app-config",
+      "homepage": "https://github.com/launchcodedev/app-config#readme"
+    },
+    "version": "2.9.0-beta.3",
+    "updatedAt": "2025-05-22T16:10:11.030Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 23
+  },
+  {
     "name": "vite-plugin-wasm-esm",
     "description": "ESM integration of wasm-pack generated modules with SSR support",
     "keywords": [
@@ -19212,33 +19239,6 @@
       }
     },
     "weeklyDownloads": 41
-  },
-  {
-    "name": "@app-config/vite",
-    "description": "Vite plugin for @app-config",
-    "keywords": [
-      "vite-plugin",
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@app-config/vite",
-      "repository": "https://github.com/launchcodedev/app-config",
-      "homepage": "https://github.com/launchcodedev/app-config#readme"
-    },
-    "version": "2.9.0-beta.3",
-    "updatedAt": "2025-05-22T16:10:11.030Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 23
   },
   {
     "name": "@hey-api/vite-plugin",
@@ -20895,34 +20895,6 @@
     "weeklyDownloads": 96
   },
   {
-    "name": "vite-plugin-patch-env",
-    "description": "<img src=\"./assets/logo.svg\" alt=\"logo of vite-plugin-patch-env repository\" width=\"100\" height=\"100\" align=\"right\" />",
-    "keywords": [
-      "env",
-      "runtimeEnv",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-patch-env",
-      "repository": "https://github.com/KeJunMao/vite-plugin-patch-env",
-      "homepage": "https://github.com/KeJunMao/vite-plugin-patch-env"
-    },
-    "version": "0.0.5",
-    "updatedAt": "2022-12-10T11:30:05.938Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 37
-  },
-  {
     "name": "vite-plugin-md-data",
     "description": "Access the markdown data",
     "keywords": [
@@ -20949,6 +20921,34 @@
       }
     },
     "weeklyDownloads": 7
+  },
+  {
+    "name": "vite-plugin-patch-env",
+    "description": "<img src=\"./assets/logo.svg\" alt=\"logo of vite-plugin-patch-env repository\" width=\"100\" height=\"100\" align=\"right\" />",
+    "keywords": [
+      "env",
+      "runtimeEnv",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-patch-env",
+      "repository": "https://github.com/KeJunMao/vite-plugin-patch-env",
+      "homepage": "https://github.com/KeJunMao/vite-plugin-patch-env"
+    },
+    "version": "0.0.5",
+    "updatedAt": "2022-12-10T11:30:05.938Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 37
   },
   {
     "name": "vite-plugin-chrome-extension-reload",
@@ -21110,6 +21110,36 @@
     "weeklyDownloads": 11
   },
   {
+    "name": "vite-plugin-pdfjs-viewer",
+    "description": "Add PDF.JS Viewer Application to Vite Bundle.",
+    "keywords": [
+      "vite-plugin",
+      "pdf",
+      "viewer",
+      "pdfjs"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-pdfjs-viewer",
+      "repository": "https://gitlab.com/beehiveor/rollup-plugin-pdfjs-viewer",
+      "homepage": "https://gitlab.com/beehiveor/rollup-plugin-pdfjs-viewer#readme"
+    },
+    "version": "0.5.0",
+    "updatedAt": "2022-04-29T20:58:14.013Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.9.1"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 22
+  },
+  {
     "name": "vite-plugin-preload-prefetch",
     "description": "Vite plugin to preload and/or prefetch resources that match a regular expression.",
     "keywords": [
@@ -21171,36 +21201,6 @@
       }
     },
     "weeklyDownloads": 72
-  },
-  {
-    "name": "vite-plugin-pdfjs-viewer",
-    "description": "Add PDF.JS Viewer Application to Vite Bundle.",
-    "keywords": [
-      "vite-plugin",
-      "pdf",
-      "viewer",
-      "pdfjs"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-pdfjs-viewer",
-      "repository": "https://gitlab.com/beehiveor/rollup-plugin-pdfjs-viewer",
-      "homepage": "https://gitlab.com/beehiveor/rollup-plugin-pdfjs-viewer#readme"
-    },
-    "version": "0.5.0",
-    "updatedAt": "2022-04-29T20:58:14.013Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^2.9.1"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 22
   },
   {
     "name": "vite-plugin-sharp",
@@ -21565,6 +21565,40 @@
     "weeklyDownloads": 2
   },
   {
+    "name": "react-devtools-metadata",
+    "description": "Comprehensive React component metadata injection with performance tracking, source location, props, and more",
+    "keywords": [
+      "react",
+      "babel-plugin",
+      "vite-plugin",
+      "webpack-loader",
+      "devtools",
+      "component-metadata",
+      "performance",
+      "debugging",
+      "source-maps"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/react-devtools-metadata",
+      "repository": "https://github.com/yourusername/react-devtools-metadata",
+      "homepage": "https://github.com/yourusername/react-devtools-metadata#readme"
+    },
+    "version": "1.1.0",
+    "updatedAt": "2025-12-15T21:54:44.305Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 9
+  },
+  {
     "name": "vite-plugin-i18n-validator",
     "description": "A Vite plugin validates Json files with internationalization support in worker thread.",
     "keywords": [
@@ -21660,40 +21694,6 @@
       }
     },
     "weeklyDownloads": 33
-  },
-  {
-    "name": "react-devtools-metadata",
-    "description": "Comprehensive React component metadata injection with performance tracking, source location, props, and more",
-    "keywords": [
-      "react",
-      "babel-plugin",
-      "vite-plugin",
-      "webpack-loader",
-      "devtools",
-      "component-metadata",
-      "performance",
-      "debugging",
-      "source-maps"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/react-devtools-metadata",
-      "repository": "https://github.com/yourusername/react-devtools-metadata",
-      "homepage": "https://github.com/yourusername/react-devtools-metadata#readme"
-    },
-    "version": "1.1.0",
-    "updatedAt": "2025-12-15T21:54:44.305Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 9
   },
   {
     "name": "@capyseo/sveltekit",
@@ -22040,6 +22040,35 @@
     "weeklyDownloads": 2
   },
   {
+    "name": "rollup-plugin-sentry",
+    "description": "Official vite plugin for Sentry",
+    "keywords": [
+      "sentry",
+      "sentry-cli",
+      "rollup-plugin",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-sentry",
+      "repository": "ssh://git@github.com/xyl66/rollup-plugin-sentry",
+      "homepage": "https://github.com/xyl66/rollup-plugin-sentry"
+    },
+    "version": "1.0.5",
+    "updatedAt": "2021-09-22T09:04:27.294Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 21
+  },
+  {
     "name": "vite-plugin-offload-wasm",
     "description": "Serve WASM from a CDN or any remote location, bypassing the local server entirely",
     "keywords": [
@@ -22068,35 +22097,6 @@
       }
     },
     "weeklyDownloads": 8
-  },
-  {
-    "name": "rollup-plugin-sentry",
-    "description": "Official vite plugin for Sentry",
-    "keywords": [
-      "sentry",
-      "sentry-cli",
-      "rollup-plugin",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-sentry",
-      "repository": "ssh://git@github.com/xyl66/rollup-plugin-sentry",
-      "homepage": "https://github.com/xyl66/rollup-plugin-sentry"
-    },
-    "version": "1.0.5",
-    "updatedAt": "2021-09-22T09:04:27.294Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 21
   },
   {
     "name": "@mico_fe/vite-plugin-i18n-react",
@@ -22288,35 +22288,6 @@
     "weeklyDownloads": 183
   },
   {
-    "name": "vite-plugin-cesium-next",
-    "description": "Cesium library plugin for Vite",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "cesium"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-cesium-next",
-      "repository": "https://github.com/coder-xiaomo/vite-plugin-cesium-next",
-      "homepage": "https://github.com/coder-xiaomo/vite-plugin-cesium-next#readme"
-    },
-    "version": "2.0.5",
-    "updatedAt": "2025-12-07T07:41:06.053Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=2.7.1"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 11
-  },
-  {
     "name": "vite-plugin-standard-css-modules",
     "description": "Provide a CSSStyleSheet or a CSSResult (Lit) for using with import attributes.\nUsing the \"with\" keyword and \"type : css\".",
     "keywords": [
@@ -22440,6 +22411,35 @@
       }
     },
     "weeklyDownloads": 11
+  },
+  {
+    "name": "vite-plugin-cesium-next",
+    "description": "Cesium library plugin for Vite",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "cesium"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-cesium-next",
+      "repository": "https://github.com/coder-xiaomo/vite-plugin-cesium-next",
+      "homepage": "https://github.com/coder-xiaomo/vite-plugin-cesium-next#readme"
+    },
+    "version": "2.0.5",
+    "updatedAt": "2025-12-07T07:41:06.053Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=2.7.1"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 5
   },
   {
     "name": "@modular-css/vite",
@@ -22590,39 +22590,6 @@
     "weeklyDownloads": 22
   },
   {
-    "name": "html-auto-reload",
-    "description": "Automatically detect HTML resource updates and prompt user to refresh the page. Support both Vite and Webpack.",
-    "keywords": [
-      "html",
-      "auto-reload",
-      "vite-plugin",
-      "webpack-plugin",
-      "hot-reload",
-      "resource-update",
-      "frontend"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/html-auto-reload",
-      "repository": "https://github.com/dufan3715/html-auto-reload",
-      "homepage": "https://github.com/dufan3715/html-auto-reload"
-    },
-    "version": "0.1.4",
-    "updatedAt": "2025-09-26T10:56:00.770Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=3 || >=4 || >=5 || >=6"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 14
-  },
-  {
     "name": "react-display-name-plugin",
     "description": "Build plugin that preserves React component names in production bundles for DevTools. Supports Webpack and Vite.",
     "keywords": [
@@ -22660,6 +22627,39 @@
       }
     },
     "weeklyDownloads": 59
+  },
+  {
+    "name": "html-auto-reload",
+    "description": "Automatically detect HTML resource updates and prompt user to refresh the page. Support both Vite and Webpack.",
+    "keywords": [
+      "html",
+      "auto-reload",
+      "vite-plugin",
+      "webpack-plugin",
+      "hot-reload",
+      "resource-update",
+      "frontend"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/html-auto-reload",
+      "repository": "https://github.com/dufan3715/html-auto-reload",
+      "homepage": "https://github.com/dufan3715/html-auto-reload"
+    },
+    "version": "0.1.4",
+    "updatedAt": "2025-09-26T10:56:00.770Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=3 || >=4 || >=5 || >=6"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 14
   },
   {
     "name": "vite-plugin-react-find",
@@ -23164,6 +23164,33 @@
     "weeklyDownloads": 6
   },
   {
+    "name": "@gautemo/vite-plugin-service-worker",
+    "description": "Simple way to register service worker in a Vite project",
+    "keywords": [
+      "vite",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@gautemo/vite-plugin-service-worker",
+      "repository": "https://github.com/gautemo/vite-plugin-service-worker",
+      "homepage": "https://github.com/gautemo/vite-plugin-service-worker#readme"
+    },
+    "version": "0.1.0",
+    "updatedAt": "2024-07-31T20:38:46.586Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 26
+  },
+  {
     "name": "vite-plugin-i18never",
     "description": "i18never plugin for vite",
     "keywords": [
@@ -23191,33 +23218,6 @@
       }
     },
     "weeklyDownloads": 25
-  },
-  {
-    "name": "@gautemo/vite-plugin-service-worker",
-    "description": "Simple way to register service worker in a Vite project",
-    "keywords": [
-      "vite",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@gautemo/vite-plugin-service-worker",
-      "repository": "https://github.com/gautemo/vite-plugin-service-worker",
-      "homepage": "https://github.com/gautemo/vite-plugin-service-worker#readme"
-    },
-    "version": "0.1.0",
-    "updatedAt": "2024-07-31T20:38:46.586Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 26
   },
   {
     "name": "@pyyupsk/vite-plugin-sitemap",
@@ -23428,35 +23428,6 @@
     "weeklyDownloads": 1
   },
   {
-    "name": "vite-plugin-msg-log",
-    "description": "log your current env",
-    "keywords": [
-      "node",
-      "vite",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-msg-log",
-      "repository": "https://github.com/PengBoUESTC/vite-plugin-msg-log",
-      "homepage": "https://github.com/PengBoUESTC/vite-plugin-msg-log.git"
-    },
-    "version": "1.1.0",
-    "updatedAt": "2022-10-09T12:02:47.284Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "2.9.9"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 28
-  },
-  {
     "name": "vite-plugin-static-copy-modules",
     "description": "Use vite-plugin-static-copy to copy node_modules files for serving",
     "keywords": [
@@ -23486,6 +23457,35 @@
       }
     },
     "weeklyDownloads": 21
+  },
+  {
+    "name": "vite-plugin-msg-log",
+    "description": "log your current env",
+    "keywords": [
+      "node",
+      "vite",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-msg-log",
+      "repository": "https://github.com/PengBoUESTC/vite-plugin-msg-log",
+      "homepage": "https://github.com/PengBoUESTC/vite-plugin-msg-log.git"
+    },
+    "version": "1.1.0",
+    "updatedAt": "2022-10-09T12:02:47.284Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "2.9.9"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 28
   },
   {
     "name": "vite-plugin-ssh",
@@ -23943,23 +23943,21 @@
     "weeklyDownloads": 6
   },
   {
-    "name": "vite-plugin-vue-cli",
-    "description": "transform vue.config.js options to vite.config.ts options",
+    "name": "@eik/vite-plugin",
+    "description": "Vite plugin for loading import maps from a Eik server and applying the mapping to ECMAScript modules in preparation for upload to the same server.",
     "keywords": [
-      "vite-plugin",
-      "vue-cli"
+      "vite-plugin"
     ],
     "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-vue-cli",
-      "repository": "ssh://git@github.com/IndexXuan/vite-plugin-vue-cli",
-      "homepage": "https://github.com/IndexXuan/vite-plugin-vue-cli"
+      "npm": "https://www.npmjs.com/package/@eik/vite-plugin",
+      "repository": "ssh://git@github.com/eik-lib/vite-plugin",
+      "homepage": "https://github.com/eik-lib/vite-plugin#readme"
     },
-    "version": "1.4.1",
-    "updatedAt": "2021-09-22T01:45:48.035Z",
+    "version": "2.0.11",
+    "updatedAt": "2025-12-29T05:05:27.039Z",
     "compatibility": {
       "vite": {
-        "type": "compatible",
-        "versions": "~2.0.0"
+        "type": "unknown"
       },
       "rollup": {
         "type": "unknown"
@@ -23968,7 +23966,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 27
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-mp",
@@ -24004,21 +24002,23 @@
     "weeklyDownloads": 29
   },
   {
-    "name": "@eik/vite-plugin",
-    "description": "Vite plugin for loading import maps from a Eik server and applying the mapping to ECMAScript modules in preparation for upload to the same server.",
+    "name": "vite-plugin-vue-cli",
+    "description": "transform vue.config.js options to vite.config.ts options",
     "keywords": [
-      "vite-plugin"
+      "vite-plugin",
+      "vue-cli"
     ],
     "links": {
-      "npm": "https://www.npmjs.com/package/@eik/vite-plugin",
-      "repository": "ssh://git@github.com/eik-lib/vite-plugin",
-      "homepage": "https://github.com/eik-lib/vite-plugin#readme"
+      "npm": "https://www.npmjs.com/package/vite-plugin-vue-cli",
+      "repository": "ssh://git@github.com/IndexXuan/vite-plugin-vue-cli",
+      "homepage": "https://github.com/IndexXuan/vite-plugin-vue-cli"
     },
-    "version": "2.0.11",
-    "updatedAt": "2025-12-29T05:05:27.039Z",
+    "version": "1.4.1",
+    "updatedAt": "2021-09-22T01:45:48.035Z",
     "compatibility": {
       "vite": {
-        "type": "unknown"
+        "type": "compatible",
+        "versions": "~2.0.0"
       },
       "rollup": {
         "type": "unknown"
@@ -24027,7 +24027,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 27
   },
   {
     "name": "vite-plugin-rsw",
@@ -24283,36 +24283,6 @@
     "weeklyDownloads": 27
   },
   {
-    "name": "@vuetify/vite-ssg",
-    "description": "Server-side generation for Vite",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "ssg",
-      "ssr"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@vuetify/vite-ssg",
-      "repository": "https://github.com/vuetifyjs/vite-ssg",
-      "homepage": "https://github.com/vuetifyjs/vite-ssg"
-    },
-    "version": "0.21.0",
-    "updatedAt": "2023-06-14T06:53:02.906Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^2.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 31
-  },
-  {
     "name": "@liuhlightning/vite-plugins",
     "description": "Self using vite plugins.",
     "keywords": [
@@ -24367,6 +24337,36 @@
       }
     },
     "weeklyDownloads": 15
+  },
+  {
+    "name": "@vuetify/vite-ssg",
+    "description": "Server-side generation for Vite",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "ssg",
+      "ssr"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@vuetify/vite-ssg",
+      "repository": "https://github.com/vuetifyjs/vite-ssg",
+      "homepage": "https://github.com/vuetifyjs/vite-ssg"
+    },
+    "version": "0.21.0",
+    "updatedAt": "2023-06-14T06:53:02.906Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 31
   },
   {
     "name": "@hono-filebased-route/vite-plugin",
@@ -25426,35 +25426,6 @@
     "weeklyDownloads": 12
   },
   {
-    "name": "vite-plugin-sexy-declare-type",
-    "description": "Zero-config TypeScript declaration file generator for Vite library mode",
-    "keywords": [
-      "vite-plugin",
-      "typescript",
-      "declaration"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-sexy-declare-type",
-      "repository": "https://github.com/StyleList94/plugin-baby",
-      "homepage": "https://github.com/StyleList94/plugin-baby/tree/main/packages/vite-plugin-sexy-declare-type#readme"
-    },
-    "version": "1.0.3",
-    "updatedAt": "2025-12-25T15:34:11.074Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=7.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 115
-  },
-  {
     "name": "vite-plugin-property-paths-to-types",
     "description": "Vite 插件：自动生成属性路径对应的类型定义",
     "keywords": [
@@ -25483,6 +25454,35 @@
       }
     },
     "weeklyDownloads": 3
+  },
+  {
+    "name": "vite-plugin-sexy-declare-type",
+    "description": "Zero-config TypeScript declaration file generator for Vite library mode",
+    "keywords": [
+      "vite-plugin",
+      "typescript",
+      "declaration"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-sexy-declare-type",
+      "repository": "https://github.com/StyleList94/plugin-baby",
+      "homepage": "https://github.com/StyleList94/plugin-baby/tree/main/packages/vite-plugin-sexy-declare-type#readme"
+    },
+    "version": "1.0.3",
+    "updatedAt": "2025-12-25T15:34:11.074Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=7.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 115
   },
   {
     "name": "vite-plugin-vue-comp-name-route",
@@ -26851,33 +26851,6 @@
     "weeklyDownloads": 23
   },
   {
-    "name": "@web-widget/vite-plugin",
-    "description": "Vite plugin for Web Router",
-    "keywords": [
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@web-widget/vite-plugin",
-      "repository": "https://github.com/web-widget/web-widget",
-      "homepage": "https://github.com/web-widget/web-widget#readme"
-    },
-    "version": "1.70.1",
-    "updatedAt": "2025-08-06T02:12:55.979Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^5.4.10"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 72
-  },
-  {
     "name": "@stephansama/astro-iconify-svgmap",
     "description": "Astro integration for generating iconify svgmaps for ssg sites",
     "keywords": [
@@ -26908,6 +26881,33 @@
       }
     },
     "weeklyDownloads": 1
+  },
+  {
+    "name": "@web-widget/vite-plugin",
+    "description": "Vite plugin for Web Router",
+    "keywords": [
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@web-widget/vite-plugin",
+      "repository": "https://github.com/web-widget/web-widget",
+      "homepage": "https://github.com/web-widget/web-widget#readme"
+    },
+    "version": "1.70.1",
+    "updatedAt": "2025-08-06T02:12:55.979Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^5.4.10"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 72
   },
   {
     "name": "vite-plugin-ssg-utils",
@@ -27066,34 +27066,6 @@
     "weeklyDownloads": 74
   },
   {
-    "name": "vite-plugin-src-update",
-    "description": "`vite-plugin-src-update` is a Vite plugin that automatically updates a template file with development or production script tags for your project assets, ensuring the correct scripts are loaded depending on your build environment. It supports configuration",
-    "keywords": [
-      "vite",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-src-update",
-      "repository": "https://github.com/Julboben/vite-plugin-src-update",
-      "homepage": "https://github.com/Julboben/vite-plugin-src-update#readme"
-    },
-    "version": "1.1.2",
-    "updatedAt": "2025-11-24T20:54:00.506Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^5.0.0 || ^6.0.0 || ^7.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 6
-  },
-  {
     "name": "@mico_fe/vite-plugin-i18n-vue-ast",
     "description": "Vue i18n Vite plugin with AST-based transformation - More precise Chinese to $t(key) conversion",
     "keywords": [
@@ -27156,6 +27128,34 @@
       }
     },
     "weeklyDownloads": 1
+  },
+  {
+    "name": "vite-plugin-src-update",
+    "description": "`vite-plugin-src-update` is a Vite plugin that automatically updates a template file with development or production script tags for your project assets, ensuring the correct scripts are loaded depending on your build environment. It supports configuration",
+    "keywords": [
+      "vite",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-src-update",
+      "repository": "https://github.com/Julboben/vite-plugin-src-update",
+      "homepage": "https://github.com/Julboben/vite-plugin-src-update#readme"
+    },
+    "version": "1.1.2",
+    "updatedAt": "2025-11-24T20:54:00.506Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^5.0.0 || ^6.0.0 || ^7.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-llms",
@@ -27244,63 +27244,6 @@
     "weeklyDownloads": 13
   },
   {
-    "name": "vite-plugin-ssam-git",
-    "description": "Create a Git commit through Vite dev server",
-    "keywords": [
-      "ssam",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-ssam-git",
-      "repository": "https://github.com/cdaein/vite-plugin-ssam-git",
-      "homepage": "https://github.com/cdaein/vite-plugin-ssam-git#readme"
-    },
-    "version": "0.1.3",
-    "updatedAt": "2025-02-25T19:47:09.312Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 12
-  },
-  {
-    "name": "@budarin/vite-plugin-webmanifest",
-    "description": "Vite plugin for transforming webmanifest",
-    "keywords": [
-      "vite",
-      "plugin",
-      "vite-plugin",
-      "webmanifest"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@budarin/vite-plugin-webmanifest",
-      "repository": "https://github.com/budarin/vite-plugin-webmanifest",
-      "homepage": "https://github.com/budarin/vite-plugin-webmanifest#readme"
-    },
-    "version": "1.0.23",
-    "updatedAt": "2025-10-29T23:12:01.810Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": ">=5.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 37
-  },
-  {
     "name": "mmjs-plugin",
     "description": "mmjs-plugin vite-plugin",
     "keywords": [
@@ -27370,6 +27313,63 @@
       }
     },
     "weeklyDownloads": 34
+  },
+  {
+    "name": "vite-plugin-ssam-git",
+    "description": "Create a Git commit through Vite dev server",
+    "keywords": [
+      "ssam",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-ssam-git",
+      "repository": "https://github.com/cdaein/vite-plugin-ssam-git",
+      "homepage": "https://github.com/cdaein/vite-plugin-ssam-git#readme"
+    },
+    "version": "0.1.3",
+    "updatedAt": "2025-02-25T19:47:09.312Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 12
+  },
+  {
+    "name": "@budarin/vite-plugin-webmanifest",
+    "description": "Vite plugin for transforming webmanifest",
+    "keywords": [
+      "vite",
+      "plugin",
+      "vite-plugin",
+      "webmanifest"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@budarin/vite-plugin-webmanifest",
+      "repository": "https://github.com/budarin/vite-plugin-webmanifest",
+      "homepage": "https://github.com/budarin/vite-plugin-webmanifest#readme"
+    },
+    "version": "1.0.23",
+    "updatedAt": "2025-10-29T23:12:01.810Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=5.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 37
   },
   {
     "name": "@titovdima/vite-plugin-import-map",
@@ -27493,6 +27493,33 @@
     "weeklyDownloads": 2
   },
   {
+    "name": "vite-plugin-command",
+    "description": "Vite plugin to run custom commands on file changes",
+    "keywords": [
+      "vite",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-command",
+      "repository": "https://github.com/emargareten/vite-plugin-command",
+      "homepage": "https://github.com/emargareten/vite-plugin-command#readme"
+    },
+    "version": "1.0.0",
+    "updatedAt": "2024-01-22T08:46:04.512Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 15
+  },
+  {
     "name": "vite-plugin-saltify-pinia-stores",
     "description": "Saltify pinia-store's ids",
     "keywords": [
@@ -27522,33 +27549,6 @@
       }
     },
     "weeklyDownloads": 32
-  },
-  {
-    "name": "vite-plugin-command",
-    "description": "Vite plugin to run custom commands on file changes",
-    "keywords": [
-      "vite",
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-command",
-      "repository": "https://github.com/emargareten/vite-plugin-command",
-      "homepage": "https://github.com/emargareten/vite-plugin-command#readme"
-    },
-    "version": "1.0.0",
-    "updatedAt": "2024-01-22T08:46:04.512Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 15
   },
   {
     "name": "vite-plugin-virtual-html-template",
@@ -28220,33 +28220,6 @@
     "weeklyDownloads": 26
   },
   {
-    "name": "vite-plugin-tag-transform",
-    "description": "A Vite plugin for transforming HTML tags in Vue3 projects",
-    "keywords": [
-      "vite-plugin",
-      "vue3",
-      "html-transform"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-tag-transform"
-    },
-    "version": "1.0.7",
-    "updatedAt": "2025-03-05T07:52:08.405Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^4.0.0 || ^5.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 8
-  },
-  {
     "name": "@helptribe/react-vite-component-tagger",
     "description": "A Vite plugin that automatically adds data attributes to your React components.",
     "keywords": [
@@ -28273,6 +28246,33 @@
       }
     },
     "weeklyDownloads": 1
+  },
+  {
+    "name": "vite-plugin-tag-transform",
+    "description": "A Vite plugin for transforming HTML tags in Vue3 projects",
+    "keywords": [
+      "vite-plugin",
+      "vue3",
+      "html-transform"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-tag-transform"
+    },
+    "version": "1.0.7",
+    "updatedAt": "2025-03-05T07:52:08.405Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^4.0.0 || ^5.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 8
   },
   {
     "name": "@manwang/langs-plugin",
@@ -28711,34 +28711,6 @@
     "weeklyDownloads": 17
   },
   {
-    "name": "vite-plugin-vue-remove-attributes",
-    "description": "Removing data attributes from SFC at build time",
-    "keywords": [
-      "vite-plugin",
-      "removing attributes",
-      "vue-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-vue-remove-attributes",
-      "repository": "https://github.com/cogor/vite-plugin-vue-remove-attributes",
-      "homepage": "https://github.com/cogor/vite-plugin-vue-remove-attributes#readme"
-    },
-    "version": "1.1.2",
-    "updatedAt": "2022-09-15T08:52:10.799Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 0
-  },
-  {
     "name": "@stacksjs/vite-config",
     "description": "The Stacks Vite configurations.",
     "keywords": [
@@ -28766,6 +28738,34 @@
       }
     },
     "weeklyDownloads": 4
+  },
+  {
+    "name": "vite-plugin-vue-remove-attributes",
+    "description": "Removing data attributes from SFC at build time",
+    "keywords": [
+      "vite-plugin",
+      "removing attributes",
+      "vue-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-vue-remove-attributes",
+      "repository": "https://github.com/cogor/vite-plugin-vue-remove-attributes",
+      "homepage": "https://github.com/cogor/vite-plugin-vue-remove-attributes#readme"
+    },
+    "version": "1.1.2",
+    "updatedAt": "2022-09-15T08:52:10.799Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "@kev1n-peters/vite-plugin-node-polyfills",
@@ -32596,6 +32596,34 @@
     "weeklyDownloads": 8
   },
   {
+    "name": "@visdoc/vite-plugin-visdoc",
+    "description": "这是visdoc的vite插件，用于将md文件转换为html",
+    "keywords": [
+      "visdoc",
+      "vite-plugin",
+      "md",
+      "markdown"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@visdoc/vite-plugin-visdoc",
+      "repository": "https://gitee.com/visdoc/vite-plugin-visdoc"
+    },
+    "version": "2.0.0",
+    "updatedAt": "2024-11-26T05:04:24.068Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 16
+  },
+  {
     "name": "vite-plugin-dynamic-importmap",
     "description": "A Vite plugin that enables dynamic importmap loading by ensuring the importmap is fetched at runtime and gets applied before any other JavaScript runs",
     "keywords": [
@@ -32626,34 +32654,6 @@
       }
     },
     "weeklyDownloads": 3
-  },
-  {
-    "name": "@visdoc/vite-plugin-visdoc",
-    "description": "这是visdoc的vite插件，用于将md文件转换为html",
-    "keywords": [
-      "visdoc",
-      "vite-plugin",
-      "md",
-      "markdown"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@visdoc/vite-plugin-visdoc",
-      "repository": "https://gitee.com/visdoc/vite-plugin-visdoc"
-    },
-    "version": "2.0.0",
-    "updatedAt": "2024-11-26T05:04:24.068Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 16
   },
   {
     "name": "vite-plugin-vue-hook-bind",
@@ -33389,6 +33389,33 @@
     "weeklyDownloads": 11
   },
   {
+    "name": "@johnsonhuang4396/vite-plugin-api-smasher",
+    "description": "Vite plugin for API Smasher",
+    "keywords": [
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@johnsonhuang4396/vite-plugin-api-smasher",
+      "repository": "https://github.com/JohnsonHuang4396/api-smasher",
+      "homepage": "https://github.com/JohnsonHuang4396/api-smasher#readme"
+    },
+    "version": "0.1.1",
+    "updatedAt": "2025-03-28T07:59:59.109Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^4.0.0 || ^5.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 7
+  },
+  {
     "name": "@mlnop/vite-plugin-sass-glob-import",
     "description": "Use glob syntax for imports in your main Sass or SCSS file.",
     "keywords": [
@@ -33479,33 +33506,6 @@
       }
     },
     "weeklyDownloads": 15
-  },
-  {
-    "name": "@johnsonhuang4396/vite-plugin-api-smasher",
-    "description": "Vite plugin for API Smasher",
-    "keywords": [
-      "vite-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@johnsonhuang4396/vite-plugin-api-smasher",
-      "repository": "https://github.com/JohnsonHuang4396/api-smasher",
-      "homepage": "https://github.com/JohnsonHuang4396/api-smasher#readme"
-    },
-    "version": "0.1.1",
-    "updatedAt": "2025-03-28T07:59:59.109Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^4.0.0 || ^5.0.0"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 7
   },
   {
     "name": "vite-plugin-react-inspect",
@@ -41215,33 +41215,6 @@
     "weeklyDownloads": 2
   },
   {
-    "name": "@slaykit/remove-console-plugin",
-    "description": "A Vite plugin to remove console statements from code with dynamic configuration",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "remove-console",
-      "plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@slaykit/remove-console-plugin"
-    },
-    "version": "0.0.1",
-    "updatedAt": "2024-12-29T03:47:41.446Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 2
-  },
-  {
     "name": "@xintao1105/vite-plugin-cesium",
     "description": "Cesium library plugin for Vite",
     "keywords": [
@@ -45009,6 +44982,33 @@
     "weeklyDownloads": 10
   },
   {
+    "name": "@slaykit/remove-console-plugin",
+    "description": "A Vite plugin to remove console statements from code with dynamic configuration",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "remove-console",
+      "plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@slaykit/remove-console-plugin"
+    },
+    "version": "0.0.1",
+    "updatedAt": "2024-12-29T03:47:41.446Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 1
+  },
+  {
     "name": "@blockquote/vite-plugin-prevent-rewrite-imports-type-module",
     "description": "A Vite plugin that prevents Vite from rewriting ES module imports by targeting `<script type=\"module\">`",
     "keywords": [
@@ -45337,50 +45337,6 @@
       }
     },
     "weeklyDownloads": 3
-  },
-  {
-    "name": "vite-plugin-dynamic-sass-themes",
-    "description": "A Vite plugin for dynamically compiling and applying SASS themes in your Vite project. This plugin allows you to manage multiple SASS themes, compile them on-the-fly, and dynamically update the styles in the browser without a full page reload.",
-    "keywords": [
-      "vite",
-      "vite-plugin",
-      "sass",
-      "scss",
-      "themes",
-      "dynamic-themes",
-      "theme-switching",
-      "theme-management",
-      "hmr",
-      "live-reload",
-      "css",
-      "styling",
-      "css-preprocessor",
-      "style-injection",
-      "theme-engine",
-      "theme-loader",
-      "frontend",
-      "web-development",
-      "modern-web"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-dynamic-sass-themes",
-      "repository": "https://github.com/prosanabani/vite-plugin-dynamic-sass-themes",
-      "homepage": "https://github.com/prosanabani/vite-plugin-dynamic-sass-themes#readme"
-    },
-    "version": "1.0.5",
-    "updatedAt": "2025-03-23T05:16:24.640Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 1
   },
   {
     "name": "vite-http2-proxy",
@@ -51065,6 +51021,81 @@
     "weeklyDownloads": 1
   },
   {
+    "name": "vite-plugin-dynamic-sass-themes",
+    "description": "A Vite plugin for dynamically compiling and applying SASS themes in your Vite project. This plugin allows you to manage multiple SASS themes, compile them on-the-fly, and dynamically update the styles in the browser without a full page reload.",
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "sass",
+      "scss",
+      "themes",
+      "dynamic-themes",
+      "theme-switching",
+      "theme-management",
+      "hmr",
+      "live-reload",
+      "css",
+      "styling",
+      "css-preprocessor",
+      "style-injection",
+      "theme-engine",
+      "theme-loader",
+      "frontend",
+      "web-development",
+      "modern-web"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-dynamic-sass-themes",
+      "repository": "https://github.com/prosanabani/vite-plugin-dynamic-sass-themes",
+      "homepage": "https://github.com/prosanabani/vite-plugin-dynamic-sass-themes#readme"
+    },
+    "version": "1.0.5",
+    "updatedAt": "2025-03-23T05:16:24.640Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 1
+  },
+  {
+    "name": "vite-plugin-rm-console",
+    "description": "plugin",
+    "keywords": [
+      "vite",
+      "plugin",
+      "remove",
+      "console",
+      "vite-plugin",
+      "vite-plugin-rm-console"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/vite-plugin-rm-console",
+      "repository": "https://github.com/ylcjwq/vite-plugin-rm-console",
+      "homepage": "https://github.com/ylcjwq/vite-plugin-rm-console#readme"
+    },
+    "version": "0.0.7",
+    "updatedAt": "2025-04-03T06:24:17.132Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 1
+  },
+  {
     "name": "@retrigger/core",
     "description": "Ultra-fast file system watcher with native performance for Node.js development tools",
     "keywords": [
@@ -51092,37 +51123,6 @@
     },
     "version": "1.0.4",
     "updatedAt": "2025-09-28T06:52:12.160Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 2
-  },
-  {
-    "name": "vite-plugin-rm-console",
-    "description": "plugin",
-    "keywords": [
-      "vite",
-      "plugin",
-      "remove",
-      "console",
-      "vite-plugin",
-      "vite-plugin-rm-console"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/vite-plugin-rm-console",
-      "repository": "https://github.com/ylcjwq/vite-plugin-rm-console",
-      "homepage": "https://github.com/ylcjwq/vite-plugin-rm-console#readme"
-    },
-    "version": "0.0.7",
-    "updatedAt": "2025-04-03T06:24:17.132Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -62298,6 +62298,33 @@
     "weeklyDownloads": 223661
   },
   {
+    "name": "rollup-plugin-polyfill-node",
+    "description": "rollup-plugin-polyfill-node ===",
+    "keywords": [
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-polyfill-node",
+      "repository": "https://github.com/FredKSchott/rollup-plugin-polyfill-node",
+      "homepage": "https://github.com/FredKSchott/rollup-plugin-polyfill-node#readme"
+    },
+    "version": "0.13.0",
+    "updatedAt": "2023-11-21T00:02:03.295Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "compatible",
+        "versions": "^1.20.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 131560
+  },
+  {
     "name": "rollup-plugin-peer-deps-external",
     "description": "Rollup plugin to automatically add a library's peerDependencies to its bundle's external config.",
     "keywords": [
@@ -62329,33 +62356,6 @@
       }
     },
     "weeklyDownloads": 151743
-  },
-  {
-    "name": "rollup-plugin-polyfill-node",
-    "description": "rollup-plugin-polyfill-node ===",
-    "keywords": [
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-polyfill-node",
-      "repository": "https://github.com/FredKSchott/rollup-plugin-polyfill-node",
-      "homepage": "https://github.com/FredKSchott/rollup-plugin-polyfill-node#readme"
-    },
-    "version": "0.13.0",
-    "updatedAt": "2023-11-21T00:02:03.295Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "compatible",
-        "versions": "^1.20.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 131560
   },
   {
     "name": "rollup-plugin-license",
@@ -63076,6 +63076,33 @@
     "weeklyDownloads": 18817
   },
   {
+    "name": "rollup-plugin-typescript-paths",
+    "description": "Rollup plugin to automatically resolve TypeScript path aliases.",
+    "keywords": [
+      "rollup-plugin",
+      "typescript"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-typescript-paths",
+      "repository": "https://github.com/simonhaenisch/rollup-plugin-typescript-paths",
+      "homepage": "https://github.com/simonhaenisch/rollup-plugin-typescript-paths#readme"
+    },
+    "version": "1.5.0",
+    "updatedAt": "2023-12-22T10:52:15.689Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 13568
+  },
+  {
     "name": "rollup-plugin-esbuild-minify",
     "description": "Rollup plugin to minify or clean up generated bundles using esbuild.",
     "keywords": [
@@ -63105,33 +63132,6 @@
       }
     },
     "weeklyDownloads": 15687
-  },
-  {
-    "name": "rollup-plugin-typescript-paths",
-    "description": "Rollup plugin to automatically resolve TypeScript path aliases.",
-    "keywords": [
-      "rollup-plugin",
-      "typescript"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-typescript-paths",
-      "repository": "https://github.com/simonhaenisch/rollup-plugin-typescript-paths",
-      "homepage": "https://github.com/simonhaenisch/rollup-plugin-typescript-paths#readme"
-    },
-    "version": "1.5.0",
-    "updatedAt": "2023-12-22T10:52:15.689Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 13568
   },
   {
     "name": "rollup-plugin-copy-assets",
@@ -64353,35 +64353,6 @@
     "weeklyDownloads": 1858
   },
   {
-    "name": "rollup-plugin-amd",
-    "description": "Convert AMD files to ES2016 modules",
-    "keywords": [
-      "rollup",
-      "rollup-plugin",
-      "requirejs",
-      "amd"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-amd",
-      "repository": "https://github.com/piuccio/rollup-plugin-amd",
-      "homepage": "https://github.com/piuccio/rollup-plugin-amd#readme"
-    },
-    "version": "4.0.0",
-    "updatedAt": "2019-02-01T07:24:36.008Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 677
-  },
-  {
     "name": "rollup-plugin-less",
     "description": "a rollup plugin for less files",
     "keywords": [
@@ -64409,6 +64380,35 @@
       }
     },
     "weeklyDownloads": 1701
+  },
+  {
+    "name": "rollup-plugin-amd",
+    "description": "Convert AMD files to ES2016 modules",
+    "keywords": [
+      "rollup",
+      "rollup-plugin",
+      "requirejs",
+      "amd"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-amd",
+      "repository": "https://github.com/piuccio/rollup-plugin-amd",
+      "homepage": "https://github.com/piuccio/rollup-plugin-amd#readme"
+    },
+    "version": "4.0.0",
+    "updatedAt": "2019-02-01T07:24:36.008Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 677
   },
   {
     "name": "@rollup-extras/plugin-copy",
@@ -65822,35 +65822,6 @@
     "weeklyDownloads": 917
   },
   {
-    "name": "@open-wc/rollup-plugin-polyfills-loader",
-    "description": "Plugin for generating an html file with rollup",
-    "keywords": [
-      "rollup-plugin",
-      "minify",
-      "html",
-      "polyfill"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@open-wc/rollup-plugin-polyfills-loader",
-      "repository": "https://github.com/open-wc/open-wc",
-      "homepage": "https://github.com/open-wc/open-wc/packages/rollup-plugin-polyfills-loader"
-    },
-    "version": "1.1.8",
-    "updatedAt": "2020-10-28T18:11:18.040Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 561
-  },
-  {
     "name": "rollup-plugin-scss-lit",
     "description": "Rollup plugin for importing Sass sources as constructable stylesheets to projects using lit (lit-html and lit-element) or fast-element.",
     "keywords": [
@@ -65887,6 +65858,35 @@
       }
     },
     "weeklyDownloads": 416
+  },
+  {
+    "name": "@open-wc/rollup-plugin-polyfills-loader",
+    "description": "Plugin for generating an html file with rollup",
+    "keywords": [
+      "rollup-plugin",
+      "minify",
+      "html",
+      "polyfill"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@open-wc/rollup-plugin-polyfills-loader",
+      "repository": "https://github.com/open-wc/open-wc",
+      "homepage": "https://github.com/open-wc/open-wc/packages/rollup-plugin-polyfills-loader"
+    },
+    "version": "1.1.8",
+    "updatedAt": "2020-10-28T18:11:18.040Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 561
   },
   {
     "name": "rollup-plugin-tslint",
@@ -66983,33 +66983,6 @@
     "weeklyDownloads": 126
   },
   {
-    "name": "rollup-plugin-riot",
-    "description": "Rollup plugin for Riot.js",
-    "keywords": [
-      "riot",
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-riot",
-      "repository": "https://github.com/riot/rollup-plugin-riot",
-      "homepage": "https://github.com/riot/rollup-plugin-riot#readme"
-    },
-    "version": "10.0.0",
-    "updatedAt": "2025-08-22T19:38:52.914Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 241
-  },
-  {
     "name": "@lunapress/rollup-plugin-external",
     "description": "",
     "keywords": [
@@ -67037,6 +67010,33 @@
       }
     },
     "weeklyDownloads": 20
+  },
+  {
+    "name": "rollup-plugin-riot",
+    "description": "Rollup plugin for Riot.js",
+    "keywords": [
+      "riot",
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-riot",
+      "repository": "https://github.com/riot/rollup-plugin-riot",
+      "homepage": "https://github.com/riot/rollup-plugin-riot#readme"
+    },
+    "version": "10.0.0",
+    "updatedAt": "2025-08-22T19:38:52.914Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 241
   },
   {
     "name": "rollup-plugin-svg-sprites",
@@ -67258,33 +67258,6 @@
     "weeklyDownloads": 178
   },
   {
-    "name": "rollup-plugin-bundle-fonts",
-    "description": "Rollup plugin to download http fonts referenced in css files",
-    "keywords": [
-      "rollup",
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-bundle-fonts",
-      "repository": "https://github.com/mgreminger/rollup-plugin-bundle-fonts",
-      "homepage": "https://github.com/mgreminger/rollup-plugin-bundle-fonts"
-    },
-    "version": "1.2.1",
-    "updatedAt": "2025-07-23T20:30:14.092Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 191
-  },
-  {
     "name": "rollup-plugin-copy-merge",
     "description": "Copy & Merge files and folders using Rollup",
     "keywords": [
@@ -67322,6 +67295,33 @@
     "weeklyDownloads": 172
   },
   {
+    "name": "rollup-plugin-bundle-fonts",
+    "description": "Rollup plugin to download http fonts referenced in css files",
+    "keywords": [
+      "rollup",
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-bundle-fonts",
+      "repository": "https://github.com/mgreminger/rollup-plugin-bundle-fonts",
+      "homepage": "https://github.com/mgreminger/rollup-plugin-bundle-fonts"
+    },
+    "version": "1.2.1",
+    "updatedAt": "2025-07-23T20:30:14.092Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 191
+  },
+  {
     "name": "rollup-plugin-copy-assets-to",
     "description": "Copy additional assets into a directory you choose.",
     "keywords": [
@@ -67353,34 +67353,6 @@
     "weeklyDownloads": 348
   },
   {
-    "name": "rollup-plugin-replace-imports",
-    "description": "A rollup plugin for replacing imports",
-    "keywords": [
-      "rollup",
-      "rollup-plugin-replace-imports",
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-replace-imports",
-      "repository": "https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-replace-imports",
-      "homepage": "https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-replace-imports#readme"
-    },
-    "version": "1.0.0",
-    "updatedAt": "2021-02-22T15:58:11.228Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 379
-  },
-  {
     "name": "rollup-plugin-angular",
     "description": "Angular2 template and styles inliner",
     "keywords": [
@@ -67409,6 +67381,34 @@
       }
     },
     "weeklyDownloads": 199
+  },
+  {
+    "name": "rollup-plugin-replace-imports",
+    "description": "A rollup plugin for replacing imports",
+    "keywords": [
+      "rollup",
+      "rollup-plugin-replace-imports",
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-replace-imports",
+      "repository": "https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-replace-imports",
+      "homepage": "https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-replace-imports#readme"
+    },
+    "version": "1.0.0",
+    "updatedAt": "2021-02-22T15:58:11.228Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 379
   },
   {
     "name": "rollup-plugin-pug",
@@ -68022,32 +68022,6 @@
     "weeklyDownloads": 51
   },
   {
-    "name": "@joseph184/rollup-plugin-node-builtins",
-    "description": "use node builtins in browser with rollup",
-    "keywords": [
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@joseph184/rollup-plugin-node-builtins",
-      "repository": "ssh://git@github.com/calvinmetcalf/rollup-plugin-node-builtins",
-      "homepage": "https://github.com/calvinmetcalf/rollup-plugin-node-builtins#readme"
-    },
-    "version": "2.1.4",
-    "updatedAt": "2019-01-15T21:09:43.869Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 151
-  },
-  {
     "name": "rollup-plugin-strip-shebang",
     "description": "A Rollup.js plugin to remove and optionally extract shebang.",
     "keywords": [
@@ -68079,6 +68053,32 @@
       }
     },
     "weeklyDownloads": 84
+  },
+  {
+    "name": "@joseph184/rollup-plugin-node-builtins",
+    "description": "use node builtins in browser with rollup",
+    "keywords": [
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@joseph184/rollup-plugin-node-builtins",
+      "repository": "ssh://git@github.com/calvinmetcalf/rollup-plugin-node-builtins",
+      "homepage": "https://github.com/calvinmetcalf/rollup-plugin-node-builtins#readme"
+    },
+    "version": "2.1.4",
+    "updatedAt": "2019-01-15T21:09:43.869Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 151
   },
   {
     "name": "rollup-plugin-manifest-json",
@@ -69918,35 +69918,6 @@
     "weeklyDownloads": 8
   },
   {
-    "name": "rollup-plugin-fill-html",
-    "description": "fill html with the bundle file",
-    "keywords": [
-      "rollup",
-      "rollup-plugin",
-      "html",
-      "fill-html"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-fill-html",
-      "repository": "https://github.com/alwaysonlinetxm/rollup-plugin-fill-html",
-      "homepage": "https://github.com/alwaysonlinetxm/rollup-plugin-fill-html#readme"
-    },
-    "version": "1.1.0",
-    "updatedAt": "2017-10-26T10:18:31.732Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 34
-  },
-  {
     "name": "rollup-plugin-no-op",
     "description": "Replace imported module with 'export default {}' using module IDs. Useful when using 'external' is not enough.",
     "keywords": [
@@ -69976,6 +69947,35 @@
       }
     },
     "weeklyDownloads": 25
+  },
+  {
+    "name": "rollup-plugin-fill-html",
+    "description": "fill html with the bundle file",
+    "keywords": [
+      "rollup",
+      "rollup-plugin",
+      "html",
+      "fill-html"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-fill-html",
+      "repository": "https://github.com/alwaysonlinetxm/rollup-plugin-fill-html",
+      "homepage": "https://github.com/alwaysonlinetxm/rollup-plugin-fill-html#readme"
+    },
+    "version": "1.1.0",
+    "updatedAt": "2017-10-26T10:18:31.732Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 34
   },
   {
     "name": "@pkgr/named-exports",
@@ -72233,6 +72233,32 @@
     "weeklyDownloads": 1
   },
   {
+    "name": "rollup-plugin-blacklist",
+    "description": "rollup-plugin-blacklist is a rollup plugin that will prevent files matching a given pattern from being accidentally included in a bundle.",
+    "keywords": [
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-blacklist",
+      "repository": "https://github.com/dumbmatter/rollup-plugin-blacklist",
+      "homepage": "https://github.com/dumbmatter/rollup-plugin-blacklist#readme"
+    },
+    "version": "1.0.1",
+    "updatedAt": "2019-09-17T00:51:21.274Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 24
+  },
+  {
     "name": "rollup-plugin-resolve-url-objects",
     "description": "Resolve and bundle the contents of a string in new URL().",
     "keywords": [
@@ -72260,32 +72286,6 @@
       }
     },
     "weeklyDownloads": 0
-  },
-  {
-    "name": "rollup-plugin-blacklist",
-    "description": "rollup-plugin-blacklist is a rollup plugin that will prevent files matching a given pattern from being accidentally included in a bundle.",
-    "keywords": [
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-blacklist",
-      "repository": "https://github.com/dumbmatter/rollup-plugin-blacklist",
-      "homepage": "https://github.com/dumbmatter/rollup-plugin-blacklist#readme"
-    },
-    "version": "1.0.1",
-    "updatedAt": "2019-09-17T00:51:21.274Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 24
   },
   {
     "name": "vite-plugin-rewrite",
@@ -72924,36 +72924,6 @@
     "weeklyDownloads": 16
   },
   {
-    "name": "rollup-plugin-graphql-tag",
-    "description": "Import graphql files with rollup",
-    "keywords": [
-      "rollup",
-      "rollup-plugin",
-      "graphql",
-      "gql",
-      "graphql-tag"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-graphql-tag",
-      "repository": "https://github.com/timhall/rollup-plugin-graphql",
-      "homepage": "https://github.com/timhall/rollup-plugin-graphql#readme"
-    },
-    "version": "0.1.0",
-    "updatedAt": "2019-10-19T19:13:57.989Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 7
-  },
-  {
     "name": "rollup-plugin-css-lit",
     "description": "Rollup plugin for importing CSS sources as constructable stylesheets to projects using lit (lit-html and lit-element) or fast-element.",
     "keywords": [
@@ -73008,6 +72978,36 @@
     },
     "version": "0.5.3",
     "updatedAt": "2023-07-05T19:36:43.176Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 7
+  },
+  {
+    "name": "rollup-plugin-graphql-tag",
+    "description": "Import graphql files with rollup",
+    "keywords": [
+      "rollup",
+      "rollup-plugin",
+      "graphql",
+      "gql",
+      "graphql-tag"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-graphql-tag",
+      "repository": "https://github.com/timhall/rollup-plugin-graphql",
+      "homepage": "https://github.com/timhall/rollup-plugin-graphql#readme"
+    },
+    "version": "0.1.0",
+    "updatedAt": "2019-10-19T19:13:57.989Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -74731,6 +74731,32 @@
     "weeklyDownloads": 9
   },
   {
+    "name": "rollup-plugin-flow-defs",
+    "description": "Quickly add flow defs to your bundles",
+    "keywords": [
+      "rollup-plugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/rollup-plugin-flow-defs",
+      "repository": "https://github.com/RichieAHB/rollup-plugin-flow-defs",
+      "homepage": "https://github.com/RichieAHB/rollup-plugin-flow-defs#readme"
+    },
+    "version": "1.0.2",
+    "updatedAt": "2018-06-20T13:25:27.850Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
+  },
+  {
     "name": "rollup-plugin-diamond",
     "description": "Plugin to run diamond compiler as part of rollup build",
     "keywords": [
@@ -74757,32 +74783,6 @@
       }
     },
     "weeklyDownloads": 4
-  },
-  {
-    "name": "rollup-plugin-flow-defs",
-    "description": "Quickly add flow defs to your bundles",
-    "keywords": [
-      "rollup-plugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/rollup-plugin-flow-defs",
-      "repository": "https://github.com/RichieAHB/rollup-plugin-flow-defs",
-      "homepage": "https://github.com/RichieAHB/rollup-plugin-flow-defs#readme"
-    },
-    "version": "1.0.2",
-    "updatedAt": "2018-06-20T13:25:27.850Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 0
   },
   {
     "name": "rollup-plugin-svg-store",
@@ -76554,37 +76554,6 @@
     "weeklyDownloads": 6
   },
   {
-    "name": "@open-editor/rollup",
-    "description": "🚀 A rollup plugin for fast find source code.",
-    "keywords": [
-      "open-editor",
-      "rollup-plugin",
-      "vue-devtools",
-      "react-devtools",
-      "web-devtools",
-      "devtools"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@open-editor/rollup",
-      "repository": "https://github.com/zjxxxxxxxxx/open-editor",
-      "homepage": "https://github.com/zjxxxxxxxxx/open-editor#readme"
-    },
-    "version": "0.9.4",
-    "updatedAt": "2025-04-30T13:13:49.714Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 12
-  },
-  {
     "name": "rollup-plugin-iconify-svg",
     "description": "A rollup plugin to autogenerate svg markup from iconify references in your svelte project",
     "keywords": [
@@ -76705,6 +76674,37 @@
       }
     },
     "weeklyDownloads": 0
+  },
+  {
+    "name": "@open-editor/rollup",
+    "description": "🚀 A rollup plugin for fast find source code.",
+    "keywords": [
+      "open-editor",
+      "rollup-plugin",
+      "vue-devtools",
+      "react-devtools",
+      "web-devtools",
+      "devtools"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@open-editor/rollup",
+      "repository": "https://github.com/zjxxxxxxxxx/open-editor",
+      "homepage": "https://github.com/zjxxxxxxxxx/open-editor#readme"
+    },
+    "version": "0.9.4",
+    "updatedAt": "2025-04-30T13:13:49.714Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 2
   },
   {
     "name": "@amprew/rollup-plugin-nunjucks",
@@ -96105,39 +96105,6 @@
     "weeklyDownloads": 10810
   },
   {
-    "name": "@vue-macros/short-emits",
-    "description": "shortEmits feature from Vue Macros.",
-    "keywords": [
-      "vue-macros",
-      "macros",
-      "vue",
-      "sfc",
-      "setup",
-      "script-setup",
-      "short-emits",
-      "unplugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@vue-macros/short-emits",
-      "repository": "https://github.com/vue-macros/vue-macros",
-      "homepage": "https://vue-macros.dev"
-    },
-    "version": "3.1.1",
-    "updatedAt": "2025-09-25T06:47:28.872Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 10648
-  },
-  {
     "name": "@vue-macros/jsx-directive",
     "description": "jsxDirective feature from Vue Macros.",
     "keywords": [
@@ -96169,6 +96136,39 @@
       }
     },
     "weeklyDownloads": 10273
+  },
+  {
+    "name": "@vue-macros/short-emits",
+    "description": "shortEmits feature from Vue Macros.",
+    "keywords": [
+      "vue-macros",
+      "macros",
+      "vue",
+      "sfc",
+      "setup",
+      "script-setup",
+      "short-emits",
+      "unplugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@vue-macros/short-emits",
+      "repository": "https://github.com/vue-macros/vue-macros",
+      "homepage": "https://vue-macros.dev"
+    },
+    "version": "3.1.1",
+    "updatedAt": "2025-09-25T06:47:28.872Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 10648
   },
   {
     "name": "@vue-macros/script-lang",
@@ -97425,7 +97425,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 708
+    "weeklyDownloads": 733
   },
   {
     "name": "storybook-vue-addon",
@@ -97821,6 +97821,37 @@
     "weeklyDownloads": 363
   },
   {
+    "name": "unplugin-vue2",
+    "description": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue2?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue2)",
+    "keywords": [
+      "unplugin",
+      "vite",
+      "webpack",
+      "rollup",
+      "nuxt",
+      "transform"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/unplugin-vue2",
+      "repository": "https://github.com/so1ve/unplugin-vue2",
+      "homepage": "https://github.com/so1ve/unplugin-vue2#readme"
+    },
+    "version": "0.1.1",
+    "updatedAt": "2023-04-18T09:07:48.116Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 143
+  },
+  {
     "name": "loggerect",
     "description": "A powerful, highly configurable logger for React and Node.js with TypeScript decorators, environment-aware logging, and source path tracking",
     "keywords": [
@@ -97862,37 +97893,6 @@
       }
     },
     "weeklyDownloads": 1321
-  },
-  {
-    "name": "unplugin-vue2",
-    "description": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue2?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue2)",
-    "keywords": [
-      "unplugin",
-      "vite",
-      "webpack",
-      "rollup",
-      "nuxt",
-      "transform"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/unplugin-vue2",
-      "repository": "https://github.com/so1ve/unplugin-vue2",
-      "homepage": "https://github.com/so1ve/unplugin-vue2#readme"
-    },
-    "version": "0.1.1",
-    "updatedAt": "2023-04-18T09:07:48.116Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 143
   },
   {
     "name": "@datadog/esbuild-plugin",
@@ -98345,35 +98345,6 @@
     "weeklyDownloads": 331
   },
   {
-    "name": "unplugin-vue-dev-locator",
-    "description": "jump to local IDE source code while click the element of browser automatically.",
-    "keywords": [
-      "vue",
-      "vite",
-      "vscode",
-      "unplugin",
-      "inspector",
-      "debug"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/unplugin-vue-dev-locator"
-    },
-    "version": "1.0.3",
-    "updatedAt": "2025-07-07T08:19:05.800Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 250
-  },
-  {
     "name": "@gravity-ui/i18n-optimize-plugin",
     "description": "Plugin for optimizing translation file delivery. Can be used with webpack, rspack, and vite.",
     "keywords": [
@@ -98402,6 +98373,35 @@
       }
     },
     "weeklyDownloads": 136
+  },
+  {
+    "name": "unplugin-vue-dev-locator",
+    "description": "jump to local IDE source code while click the element of browser automatically.",
+    "keywords": [
+      "vue",
+      "vite",
+      "vscode",
+      "unplugin",
+      "inspector",
+      "debug"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/unplugin-vue-dev-locator"
+    },
+    "version": "1.0.3",
+    "updatedAt": "2025-07-07T08:19:05.800Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 250
   },
   {
     "name": "@elliots/unplugin-typical",
@@ -99467,39 +99467,6 @@
     "weeklyDownloads": 12
   },
   {
-    "name": "@shellicar/build-clean",
-    "description": "Build plugin that automatically cleans unused files from output directories.",
-    "keywords": [
-      "esbuild",
-      "tsup",
-      "build",
-      "clean",
-      "plugin",
-      "unplugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@shellicar/build-clean",
-      "repository": "https://github.com/shellicar/build-clean",
-      "homepage": "https://github.com/shellicar/build-clean#readme"
-    },
-    "version": "1.1.2",
-    "updatedAt": "2025-10-24T06:19:39.635Z",
-    "compatibility": {
-      "vite": {
-        "type": "compatible",
-        "versions": "^6"
-      },
-      "rollup": {
-        "type": "compatible",
-        "versions": "^3"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 47
-  },
-  {
     "name": "unplugin-images",
     "description": "自动扫描你的图片目录，生成可直接导入使用的常量映射文件（默认 `src/assets/r.ts`）。基于 [unplugin](https://github.com/unjs/unplugin)，兼容 Vite、Rollup、Webpack、Rspack、esbuild、Farm、Nuxt、Astro 等生态。",
     "keywords": [
@@ -99562,6 +99529,39 @@
       }
     },
     "weeklyDownloads": 56
+  },
+  {
+    "name": "@shellicar/build-clean",
+    "description": "Build plugin that automatically cleans unused files from output directories.",
+    "keywords": [
+      "esbuild",
+      "tsup",
+      "build",
+      "clean",
+      "plugin",
+      "unplugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@shellicar/build-clean",
+      "repository": "https://github.com/shellicar/build-clean",
+      "homepage": "https://github.com/shellicar/build-clean#readme"
+    },
+    "version": "1.1.2",
+    "updatedAt": "2025-10-24T06:19:39.635Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^6"
+      },
+      "rollup": {
+        "type": "compatible",
+        "versions": "^3"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 47
   },
   {
     "name": "@torpor/unplugin",
@@ -99657,33 +99657,6 @@
     "weeklyDownloads": 5
   },
   {
-    "name": "unplugin-mantine-autoload-css",
-    "description": "Unplugin for Mantine to autoload CSS for used components",
-    "keywords": [
-      "unplugin",
-      "mantine"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/unplugin-mantine-autoload-css",
-      "repository": "ssh://git@github.com/Grawl/unplugin-mantine-autoload-css",
-      "homepage": "https://github.com/Grawl/unplugin-mantine-autoload-css#readme"
-    },
-    "version": "0.2.0",
-    "updatedAt": "2025-07-24T13:12:13.766Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 22
-  },
-  {
     "name": "@todde.tv/gltf-type-toolkit",
     "description": "This plugin generates type-safe glTF file representations in TypeScript and optimizes the loading and bundling of models in web projects, while being bundler-agnostic (Vite, Rollup, Webpack, esbuild, Rspack, ...).",
     "keywords": [
@@ -99725,6 +99698,33 @@
       }
     },
     "weeklyDownloads": 3
+  },
+  {
+    "name": "unplugin-mantine-autoload-css",
+    "description": "Unplugin for Mantine to autoload CSS for used components",
+    "keywords": [
+      "unplugin",
+      "mantine"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/unplugin-mantine-autoload-css",
+      "repository": "ssh://git@github.com/Grawl/unplugin-mantine-autoload-css",
+      "homepage": "https://github.com/Grawl/unplugin-mantine-autoload-css#readme"
+    },
+    "version": "0.2.0",
+    "updatedAt": "2025-07-24T13:12:13.766Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 22
   },
   {
     "name": "unplugin-oxc-minifier",
@@ -103569,34 +103569,6 @@
     "weeklyDownloads": 3
   },
   {
-    "name": "@dinwwwh/unplugin",
-    "description": "Utility for bundlers",
-    "keywords": [
-      "dinwwwh",
-      "dinwwwh-unplugin",
-      "unplugin"
-    ],
-    "links": {
-      "npm": "https://www.npmjs.com/package/@dinwwwh/unplugin",
-      "repository": "https://github.com/dinwwwh/dinwwwh",
-      "homepage": "https://github.com/dinwwwh/dinwwwh"
-    },
-    "version": "0.0.2",
-    "updatedAt": "2024-10-04T08:46:16.941Z",
-    "compatibility": {
-      "vite": {
-        "type": "unknown"
-      },
-      "rollup": {
-        "type": "unknown"
-      },
-      "rolldown": {
-        "type": "unknown"
-      }
-    },
-    "weeklyDownloads": 1
-  },
-  {
     "name": "unplugin-strive-molu",
     "description": "在strive-molu使用组件时自动导入样式",
     "keywords": [
@@ -103649,6 +103621,34 @@
       "rollup": {
         "type": "compatible",
         "versions": "^3"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 1
+  },
+  {
+    "name": "@dinwwwh/unplugin",
+    "description": "Utility for bundlers",
+    "keywords": [
+      "dinwwwh",
+      "dinwwwh-unplugin",
+      "unplugin"
+    ],
+    "links": {
+      "npm": "https://www.npmjs.com/package/@dinwwwh/unplugin",
+      "repository": "https://github.com/dinwwwh/dinwwwh",
+      "homepage": "https://github.com/dinwwwh/dinwwwh"
+    },
+    "version": "0.0.2",
+    "updatedAt": "2024-10-04T08:46:16.941Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
       },
       "rolldown": {
         "type": "unknown"
