@@ -7,3 +7,7 @@ The data is refreshed every day automatically based on the data from npm and met
 ## For Plugin Authors
 
 Plugin authors can provide enhanced metadata by adding a `vite-plugin-registry` field to their `package.json`. See the [Guide](/guide/) for details.
+
+## Credits
+
+This registry is partially inspired by [Flint's blog post "What Flint Does Differently"](https://www.flint.fyi/blog/what-flint-does-differently/#plugin-registry).
