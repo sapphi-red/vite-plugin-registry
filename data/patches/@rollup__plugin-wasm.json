@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-wasm",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in WebAssembly support using ?init suffix for pre-compiled .wasm files."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-banner",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown supports injecting banner after minification. Use `output.postBanner` option instead."
+      }
+    }
+  }
+}

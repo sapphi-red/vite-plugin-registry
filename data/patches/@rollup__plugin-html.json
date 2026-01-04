@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-html",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in HTML handling."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-sass",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in SCSS/Sass support. Just install sass as a dev dependency."
+      }
+    }
+  }
+}

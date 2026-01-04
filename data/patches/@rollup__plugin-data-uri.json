@@ -1,0 +1,15 @@
+{
+  "packageName": "@rollup/plugin-data-uri",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown has built-in support for importing modules from data URIs."
+      },
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in support for importing modules from data URIs."
+      }
+    }
+  }
+}

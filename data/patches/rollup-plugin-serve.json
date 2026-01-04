@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-serve",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has a built-in dev server with HMR. Use `vite` or `vite preview` commands."
+      }
+    }
+  }
+}

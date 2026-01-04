@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-less",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in Less support. Just install less as a dev dependency."
+      }
+    }
+  }
+}

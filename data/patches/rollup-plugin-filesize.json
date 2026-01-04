@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-filesize",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite displays file sizes in build output. For detailed analysis, use `rollup-plugin-visualizer`."
+      }
+    }
+  }
+}

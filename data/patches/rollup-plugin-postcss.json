@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-postcss",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in PostCSS support. Configure PostCSS via `postcss.config.js` or `css.postcss` option."
+      }
+    }
+  }
+}

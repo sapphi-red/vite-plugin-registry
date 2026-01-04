@@ -1,0 +1,17 @@
+{
+  "packageName": "@rollup/plugin-typescript",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "compatible",
+        "versions": "^1.0.0",
+        "note": "Rolldown has built-in TypeScript support which is faster than TypeScript compiler. Use this plugin only if you need features that require the TypeScript compiler."
+      },
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0",
+        "note": "Vite has built-in TypeScript support which is faster than TypeScript compiler. Use this plugin only if you need features that require the TypeScript compiler."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-uglify",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in minification feature. Use `build.minify` option instead."
+      }
+    }
+  }
+}

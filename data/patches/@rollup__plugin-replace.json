@@ -1,0 +1,15 @@
+{
+  "packageName": "@rollup/plugin-replace",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown has built-in replace plugin. See https://rolldown.rs/builtin-plugins/replace."
+      },
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+      }
+    }
+  }
+}

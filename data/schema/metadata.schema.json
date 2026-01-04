@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/ras0q/crawl-ls/refs/heads/main/data/schema/metadata.json ",
+  "title": "Vite Plugin Registry Metadata",
+  "description": "Schema for custom plugin metadata hosted at the URL specified in the vite-plugin-registry field of package.json",
+  "type": "object",
+  "required": ["schemaVersion"],
+  "$defs": {
+    "toolCompatibility": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "versions"],
+          "properties": {
+            "type": { "const": "compatible" },
+            "versions": {
+              "type": "string",
+              "description": "Semver range of compatible versions"
+            },
+            "note": {
+              "type": "string",
+              "description": "Optional note providing additional context about compatibility"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "reason"],
+          "properties": {
+            "type": { "const": "incompatible" },
+            "reason": {
+              "type": "string",
+              "description": "Human-readable explanation of why the plugin is incompatible"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type"],
+          "properties": {
+            "type": { "const": "unknown" }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "enum": ["1.0"],
+      "description": "Schema version for forward compatibility"
+    },
+    "compatibility": {
+      "type": "object",
+      "description": "Overall compatibility declarations",
+      "properties": {
+        "vite": { "$ref": "#/$defs/toolCompatibility" },
+        "rollup": { "$ref": "#/$defs/toolCompatibility" },
+        "rolldown": { "$ref": "#/$defs/toolCompatibility" }
+      }
+    }
+  }
+}

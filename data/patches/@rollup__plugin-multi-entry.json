@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-multi-entry",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Not applicable for Vite. Vite uses index.html as entry point and supports multiple entry points via build.rollupOptions.input."
+      }
+    }
+  }
+}

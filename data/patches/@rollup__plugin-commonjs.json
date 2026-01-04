@@ -1,0 +1,15 @@
+{
+  "packageName": "@rollup/plugin-commonjs",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown handles CommonJS to ESM conversion automatically."
+      },
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite handles CommonJS to ESM conversion automatically."
+      }
+    }
+  }
+}

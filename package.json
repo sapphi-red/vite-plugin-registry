@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-registry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "collect": "oxnode scripts/collect/index.ts",
+    "lint": "oxlint --type-aware --type-check",
+    "fmt": "oxfmt --write ."
+  },
+  "dependencies": {
+    "oxc-minify": "^0.106.0"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.82",
+    "@oxc-node/cli": "^0.0.35",
+    "@oxc-node/core": "^0.0.35",
+    "@types/node": "^22.10.5",
+    "@types/semver": "^7.7.1",
+    "@vueuse/core": "^13.2.0",
+    "floating-vue": "^5.2.2",
+    "minisearch": "^7.1.1",
+    "oxfmt": "^0.21.0",
+    "oxlint": "^1.36.0",
+    "oxlint-tsgolint": "^0.10.1",
+    "p-queue": "^9.0.1",
+    "semver": "^7.7.3",
+    "typescript": "^5.9.3",
+    "unplugin-icons": "^22.5.0",
+    "vitepress": "2.0.0-alpha.15",
+    "vitepress-plugin-group-icons": "^1.6.5",
+    "vue": "^3.5.26"
+  },
+  "packageManager": "pnpm@10.27.0"
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["unplugin-icons/types/vue"]
+  },
+  "include": ["scripts/**/*.ts", "docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.vue"],
+  "exclude": ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
+}

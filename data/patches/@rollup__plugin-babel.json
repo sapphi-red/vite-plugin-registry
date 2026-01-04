@@ -1,0 +1,17 @@
+{
+  "packageName": "@rollup/plugin-babel",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "compatible",
+        "versions": "^1.0.0",
+        "note": "Not recommended as it can slow down the build. Most transformation feature is covered by the built-in feature."
+      },
+      "vite": {
+        "type": "compatible",
+        "versions": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0",
+        "note": "Not recommended as it can slow down the dev server. Most transformation feature is covered by the built-in feature. Use @vitejs/plugin-legacy for legacy browser support in production builds."
+      }
+    }
+  }
+}

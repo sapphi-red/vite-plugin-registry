@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-progress",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite displays build progress and information natively."
+      }
+    }
+  }
+}

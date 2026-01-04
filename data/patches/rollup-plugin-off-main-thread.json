@@ -1,0 +1,11 @@
+{
+  "packageName": "@nicholasmsmith/rollup-plugin-off-main-thread",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in Web Worker support using the ?worker suffix or `new Worker()` with `import.meta.url`."
+      }
+    }
+  }
+}

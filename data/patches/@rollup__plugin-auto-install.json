@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-auto-install",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "This plugin is incompatible. See https://github.com/vitejs/vite/issues/1500 for details."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-vue",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Use @vitejs/plugin-vue for Vue 3 SFC support."
+      }
+    }
+  }
+}

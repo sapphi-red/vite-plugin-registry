@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-livereload",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in Hot Module Replacement (HMR) which is faster and more granular than livereload."
+      }
+    }
+  }
+}

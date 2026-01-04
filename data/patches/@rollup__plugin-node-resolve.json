@@ -1,0 +1,15 @@
+{
+  "packageName": "@rollup/plugin-node-resolve",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown has built-in Node.js module resolution support."
+      },
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in Node.js module resolution support."
+      }
+    }
+  }
+}

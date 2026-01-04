@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-dynamic-import-vars",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in support for dynamic imports with variables."
+      }
+    }
+  }
+}

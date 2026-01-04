@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-url",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in support for URL imports using ?url suffix."
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "packageName": "rollup-plugin-bundle-size",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown displays bundle sizes in build output. For detailed analysis, use `rollup-plugin-visualizer`."
+      },
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite displays bundle sizes in build output. For detailed analysis, use `rollup-plugin-visualizer`."
+      }
+    }
+  }
+}

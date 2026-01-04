@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-sizes",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "This plugin is incompatible with Vite. Consider using `rollup-plugin-visualizer` instead."
+      }
+    }
+  }
+}

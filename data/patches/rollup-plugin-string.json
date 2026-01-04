@@ -1,0 +1,11 @@
+{
+  "packageName": "rollup-plugin-string",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite has built-in raw file import support using the ?raw suffix."
+      }
+    }
+  }
+}

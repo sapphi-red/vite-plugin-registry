@@ -1,0 +1,11 @@
+{
+  "packageName": "@rollup/plugin-run",
+  "overrides": {
+    "compatibility": {
+      "vite": {
+        "type": "incompatible",
+        "reason": "Not applicable for Vite. This plugin is designed for running Node bundles after build, which is not a typical Vite use case."
+      }
+    }
+  }
+}

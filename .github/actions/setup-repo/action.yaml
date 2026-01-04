@@ -1,0 +1,18 @@
+name: Setup Repo
+description: Setup pnpm and Node.js, install dependencies
+
+inputs:
+  node-version:
+    description: Version of Node to use
+    default: 24.x
+
+runs:
+  using: composite
+  steps:
+    - uses: pnpm/action-setup@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+        cache: pnpm
+    - run: pnpm install --frozen-lockfile
+      shell: bash

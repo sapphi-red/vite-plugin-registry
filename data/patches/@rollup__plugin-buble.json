@@ -1,0 +1,15 @@
+{
+  "packageName": "@rollup/plugin-buble",
+  "overrides": {
+    "compatibility": {
+      "rolldown": {
+        "type": "incompatible",
+        "reason": "Rolldown's built-in transformation feature supports all syntaxes that buble supports."
+      },
+      "vite": {
+        "type": "incompatible",
+        "reason": "Vite's built-in transformation feature supports all syntaxes that buble supports."
+      }
+    }
+  }
+}
