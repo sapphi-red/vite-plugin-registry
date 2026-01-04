@@ -210,6 +210,7 @@ async function collectPlugins(
 async function savePlugins(plugins: RegistryPlugin[]): Promise<void> {
   await mkdir(DATA_DIR, { recursive: true })
   const outputPath = join(DATA_DIR, 'all.json')
+  plugins.sort((a, b) => (a.name > b.name ? 1 : -1))
   await writeFile(outputPath, JSON.stringify(plugins, null, 2))
   console.log(`Saved ${plugins.length} plugins to ${outputPath}`)
 }
