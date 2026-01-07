@@ -1,17 +1,17 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { toJsonSchema } from '@valibot/to-json-schema'
-import { MetadataSchema, ToolCompatibilitySchema } from './metadata-schema.js'
+import { CompatiblePackagesSchema, ToolCompatibilitySchema } from './metadata-schema.js'
 
-const OUTPUT_PATH = 'data/schema/metadata.schema.json'
+const OUTPUT_PATH = 'data/schema/compatible-packages.schema.json'
 
-const rawSchema = toJsonSchema(MetadataSchema, {
+const rawSchema = toJsonSchema(CompatiblePackagesSchema, {
   definitions: {
     ToolCompatibilitySchema,
   },
 })
 rawSchema.$id =
-  'https://raw.githubusercontent.com/vitejs/vite-plugin-registry/refs/heads/main/data/schema/metadata.schema.json'
-rawSchema.title = 'Vite Plugin Registry Metadata'
+  'https://raw.githubusercontent.com/vitejs/vite-plugin-registry/refs/heads/main/data/schema/compatible-packages.schema.json'
+rawSchema.title = 'Compatible Packages Schema'
 
 const output = JSON.stringify(rawSchema, null, 2) + '\n'
 

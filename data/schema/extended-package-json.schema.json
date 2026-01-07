@@ -1,0 +1,16 @@
+{
+  "title": "package.json with `compatiblePackages` field",
+  "$id": "https://raw.githubusercontent.com/vitejs/vite-plugin-registry/refs/heads/main/data/schema/extended-package-json.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    { "$ref": "https://www.schemastore.org/package.json" },
+    {
+      "type": "object",
+      "properties": {
+        "compatiblePackages": {
+          "$ref": "./compatible-packages.schema.json"
+        }
+      }
+    }
+  ]
+}

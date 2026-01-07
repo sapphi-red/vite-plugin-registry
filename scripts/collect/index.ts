@@ -1,19 +1,28 @@
 import { writeFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import * as v from 'valibot'
 import { NpmClient } from './npm-client.js'
-import { MetadataFetcher } from './metadata-fetcher.js'
+import { CompatiblePackagesSchema } from '../metadata-schema.js'
 import type {
   RegistryPlugin,
   NpmSearchObject,
   NpmPackument,
   Compatibility,
-  VitePluginRegistryMetadata,
+  CompatiblePackages,
 } from './types.js'
 import { PLUGIN_KEYWORDS, PLUGIN_SCOPES } from './types.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = join(__dirname, '../../data/plugins')
+
+/**
+ * Validate and parse compatiblePackages data from package.json
+ */
+function validateCompatiblePackages(data: unknown): CompatiblePackages | null {
+  const result = v.safeParse(CompatiblePackagesSchema, data)
+  return result.success ? result.output : null
+}
 
 /**
  * Extract repository URL from various formats
@@ -55,18 +64,18 @@ function parseCompatibility(peerDeps: Record<string, string> | undefined): Compa
 }
 
 /**
- * Merge extended metadata compatibility into base compatibility
+ * Merge compatiblePackages into base compatibility
  */
 function mergeCompatibility(
   base: Compatibility,
-  extended: VitePluginRegistryMetadata['compatibility'] | undefined,
+  compatiblePackages: CompatiblePackages | undefined,
 ): Compatibility {
-  if (!extended) return base
+  if (!compatiblePackages) return base
 
   const result: Compatibility = { ...base }
   const tools = ['vite', 'rollup', 'rolldown'] as const
   for (const tool of tools) {
-    const extendedTool = extended[tool]
+    const extendedTool = compatiblePackages[tool]
     if (extendedTool) {
       result[tool] = extendedTool
     }
@@ -80,12 +89,12 @@ function mergeCompatibility(
 function transformToRegistryPlugin(
   searchResult: NpmSearchObject,
   packument: NpmPackument,
-  extendedMetadata: VitePluginRegistryMetadata | null,
+  compatiblePackages: CompatiblePackages | null,
 ): RegistryPlugin {
   const latestVersion = packument['dist-tags'].latest
   const versionData = packument.versions[latestVersion]
   const baseCompatibility = parseCompatibility(versionData?.peerDependencies)
-  const compatibility = mergeCompatibility(baseCompatibility, extendedMetadata?.compatibility)
+  const compatibility = mergeCompatibility(baseCompatibility, compatiblePackages ?? undefined)
 
   return {
     name: searchResult.package.name,
@@ -100,7 +109,7 @@ function transformToRegistryPlugin(
     version: latestVersion,
     updatedAt: packument.time[latestVersion] ?? searchResult.package.date,
     compatibility,
-    extendedMetadata: extendedMetadata ?? undefined,
+    compatiblePackages: compatiblePackages ?? undefined,
     weeklyDownloads: searchResult.downloads.weekly,
   }
 }
@@ -111,7 +120,6 @@ function transformToRegistryPlugin(
 async function processPackage(
   result: NpmSearchObject,
   npmClient: NpmClient,
-  metadataFetcher: MetadataFetcher,
 ): Promise<RegistryPlugin | null> {
   try {
     const packument = await npmClient.getPackage(result.package.name)
@@ -120,13 +128,12 @@ async function processPackage(
     const latestVersion = packument['dist-tags'].latest
     const versionData = packument.versions[latestVersion]
 
-    // Fetch custom metadata if available
-    let extendedMetadata = null
-    if (versionData?.['vite-plugin-registry']) {
-      extendedMetadata = await metadataFetcher.fetch(versionData['vite-plugin-registry'])
-    }
+    // Validate compatiblePackages if present
+    const compatiblePackages = versionData?.compatiblePackages
+      ? validateCompatiblePackages(versionData.compatiblePackages)
+      : null
 
-    return transformToRegistryPlugin(result, packument, extendedMetadata)
+    return transformToRegistryPlugin(result, packument, compatiblePackages)
   } catch (error) {
     console.error(`Error processing ${result.package.name}:`, error)
     return null
@@ -136,10 +143,7 @@ async function processPackage(
 /**
  * Collect all plugins from all keywords
  */
-async function collectPlugins(
-  npmClient: NpmClient,
-  metadataFetcher: MetadataFetcher,
-): Promise<RegistryPlugin[]> {
+async function collectPlugins(npmClient: NpmClient): Promise<RegistryPlugin[]> {
   console.log('Searching for plugins...')
 
   // Search keywords sequentially to avoid rate limiting
@@ -185,7 +189,7 @@ async function collectPlugins(
 
   const results = await Promise.all(
     allSearchResults.map(async (result) => {
-      const plugin = await processPackage(result, npmClient, metadataFetcher)
+      const plugin = await processPackage(result, npmClient)
       completed++
       updateProgress()
       return plugin
@@ -222,8 +226,7 @@ async function main(): Promise<void> {
   console.log('Starting plugin collection...')
 
   const npmClient = new NpmClient()
-  const metadataFetcher = new MetadataFetcher()
-  const plugins = await collectPlugins(npmClient, metadataFetcher)
+  const plugins = await collectPlugins(npmClient)
   await savePlugins(plugins)
 
   console.log('\nCollection complete!')

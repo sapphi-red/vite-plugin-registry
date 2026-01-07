@@ -5,25 +5,18 @@
       "const": 1,
       "description": "Schema version for forward compatibility"
     },
-    "compatibility": {
-      "type": "object",
-      "properties": {
-        "vite": {
-          "$ref": "#/$defs/ToolCompatibilitySchema"
-        },
-        "rollup": {
-          "$ref": "#/$defs/ToolCompatibilitySchema"
-        },
-        "rolldown": {
-          "$ref": "#/$defs/ToolCompatibilitySchema"
-        }
-      },
-      "required": [],
-      "description": "Overall compatibility declarations"
+    "vite": {
+      "$ref": "#/$defs/ToolCompatibilitySchema"
+    },
+    "rollup": {
+      "$ref": "#/$defs/ToolCompatibilitySchema"
+    },
+    "rolldown": {
+      "$ref": "#/$defs/ToolCompatibilitySchema"
     }
   },
   "required": ["schemaVersion"],
-  "description": "Schema for custom plugin metadata hosted at the URL specified in the vite-plugin-registry field of package.json",
+  "description": "Schema for the compatiblePackages field in package.json, declaring plugin compatibility with bundlers",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$defs": {
     "ToolCompatibilitySchema": {
@@ -70,6 +63,6 @@
       ]
     }
   },
-  "$id": "https://raw.githubusercontent.com/vitejs/vite-plugin-registry/refs/heads/main/data/schema/metadata.schema.json",
-  "title": "Vite Plugin Registry Metadata"
+  "$id": "https://raw.githubusercontent.com/vitejs/vite-plugin-registry/refs/heads/main/data/schema/compatible-packages.schema.json",
+  "title": "Compatible Packages Schema"
 }

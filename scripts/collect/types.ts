@@ -31,18 +31,17 @@ export interface Compatibility {
 }
 
 /**
- * Custom metadata from the `vite-plugin-registry` field in package.json
- * This is fetched from an external URL
+ * Custom metadata from the `compatiblePackages` field in package.json
  */
-export interface VitePluginRegistryMetadata {
+export interface CompatiblePackages {
   /** Schema version for forward compatibility */
-  schemaVersion: '1.0'
-  /** Overall compatibility declarations */
-  compatibility?: {
-    vite?: ToolCompatibility
-    rollup?: ToolCompatibility
-    rolldown?: ToolCompatibility
-  }
+  schemaVersion: 1
+  /** Vite compatibility information */
+  vite?: ToolCompatibility
+  /** Rollup compatibility information */
+  rollup?: ToolCompatibility
+  /** Rolldown compatibility information */
+  rolldown?: ToolCompatibility
 }
 
 /**
@@ -63,8 +62,8 @@ export interface RegistryPlugin {
   updatedAt: string
   /** Compatibility information from peer dependencies */
   compatibility: Compatibility
-  /** Extended metadata from vite-plugin-registry field */
-  extendedMetadata?: VitePluginRegistryMetadata
+  /** Extended metadata from compatiblePackages field */
+  compatiblePackages?: CompatiblePackages
   /** Weekly download count from npm */
   weeklyDownloads?: number
 }
@@ -134,7 +133,7 @@ export interface NpmPackument {
       }
       peerDependencies?: Record<string, string>
       homepage?: string
-      'vite-plugin-registry'?: string
+      compatiblePackages?: unknown
     }
   }
   time: {

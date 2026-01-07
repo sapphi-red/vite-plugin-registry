@@ -23,21 +23,14 @@ export const ToolCompatibilitySchema = v.variant('type', [
   }),
 ])
 
-export const MetadataSchema = v.pipe(
+export const CompatiblePackagesSchema = v.pipe(
   v.object({
     schemaVersion: v.pipe(v.literal(1), v.description('Schema version for forward compatibility')),
-    compatibility: v.pipe(
-      v.optional(
-        v.object({
-          vite: v.optional(ToolCompatibilitySchema),
-          rollup: v.optional(ToolCompatibilitySchema),
-          rolldown: v.optional(ToolCompatibilitySchema),
-        }),
-      ),
-      v.description('Overall compatibility declarations'),
-    ),
+    vite: v.optional(ToolCompatibilitySchema),
+    rollup: v.optional(ToolCompatibilitySchema),
+    rolldown: v.optional(ToolCompatibilitySchema),
   }),
   v.description(
-    'Schema for custom plugin metadata hosted at the URL specified in the vite-plugin-registry field of package.json',
+    'Schema for the compatiblePackages field in package.json, declaring plugin compatibility with bundlers',
   ),
 )
