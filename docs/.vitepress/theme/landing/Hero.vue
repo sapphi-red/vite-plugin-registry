@@ -12,8 +12,7 @@
           Vite Plugin Registry
         </h1>
         <p class="text-white/70 md:text-lg max-w-[30rem] text-pretty">
-          Discover and compare plugins for Vite, Rollup, and Rolldown.
-          Find the right tools to enhance your build workflow.
+          Discover and compare plugins for Vite, Rolldown, and Rollup.
         </p>
         <div class="flex items-center gap-5 mt-8">
           <a href="/plugins/" class="button button--primary inline-block w-fit">
