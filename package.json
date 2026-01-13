@@ -19,6 +19,7 @@
     "@types/node": "^24.10.4",
     "@types/semver": "^7.7.1",
     "@valibot/to-json-schema": "^1.5.0",
+    "@voidzero-dev/vitepress-theme": "^4.0.4",
     "@vueuse/core": "^14.1.0",
     "floating-vue": "^5.2.2",
     "minisearch": "^7.2.0",

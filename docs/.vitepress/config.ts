@@ -1,17 +1,23 @@
 import { defineConfig } from 'vitepress'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import Icons from 'unplugin-icons/vite'
+import { extendConfig } from '@voidzero-dev/vitepress-theme/config'
 
-export default defineConfig({
+const config = defineConfig<unknown>({
   title: 'Vite Plugin Registry',
-  description: 'Discover plugins for Vite, Rollup, Rolldown',
+  description: 'Discover plugins for Vite, Rolldown, and Rollup',
   cleanUrls: true,
 
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'https://vite.dev/logo-without-border.svg' }]],
 
   themeConfig: {
+    variant: "vite",
+
+    footer: {
+      copyright: `© 2026 VoidZero Inc. and Vite contributors.`,
+    },
+
     nav: [
-      { text: 'About', link: '/about' },
       { text: 'Plugins', link: '/plugins' },
       { text: 'Guide', link: '/guide/' },
     ],
@@ -35,7 +41,7 @@ export default defineConfig({
       provider: 'local',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/sapphi-red/vite-plugin-registry' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vitejs/vite-plugin-registry' }],
   },
   markdown: {
     config(md) {
@@ -46,3 +52,5 @@ export default defineConfig({
     plugins: [groupIconVitePlugin(), Icons({ compiler: 'vue3' })],
   },
 })
+
+export default extendConfig(config)
