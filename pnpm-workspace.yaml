@@ -3,6 +3,3 @@ onlyBuiltDependencies:
 
 overrides:
   vite: ^8.0.0-beta.4
-
-patchedDependencies:
-  '@voidzero-dev/vitepress-theme': patches/@voidzero-dev__vitepress-theme.patch
