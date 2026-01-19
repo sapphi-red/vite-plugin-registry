@@ -29,7 +29,7 @@
     "p-queue": "^9.1.0",
     "semver": "^7.7.3",
     "typescript": "^5.9.3",
-    "unplugin-icons": "^22.5.0",
+    "unplugin-icons": "^23.0.1",
     "valibot": "^1.2.0",
     "vitepress": "2.0.0-alpha.15",
     "vitepress-plugin-group-icons": "^1.6.5",
