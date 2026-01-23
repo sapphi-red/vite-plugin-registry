@@ -25,6 +25,10 @@ Understand how version compatibility is extracted from peer dependencies.
 
 Add custom metadata to enhance your plugin's registry listing.
 
+### [Compatibility Badges](./badges)
+
+Display dynamic compatibility badges in your README using shields.io.
+
 ### [Registry Patches](./patches)
 
 How registry maintainers can add patches for plugins that don't provide their own metadata.

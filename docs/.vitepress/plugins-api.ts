@@ -88,6 +88,30 @@ async function generatePluginData(): Promise<PluginsApiResponse> {
   }
 }
 
+interface PluginBadge {
+  vite: string
+  rollup: string
+  rolldown: string
+}
+
+function formatCompatibility(
+  compat: RegistryPlugin['compatibility'][keyof RegistryPlugin['compatibility']],
+): string {
+  return compat.type === 'compatible' ? compat.versions : compat.type
+}
+
+function generateBadgesData(plugins: RegistryPlugin[]): Record<string, PluginBadge> {
+  const badges: Record<string, PluginBadge> = {}
+  for (const plugin of plugins) {
+    badges[plugin.name] = {
+      vite: formatCompatibility(plugin.compatibility.vite),
+      rollup: formatCompatibility(plugin.compatibility.rollup),
+      rolldown: formatCompatibility(plugin.compatibility.rolldown),
+    }
+  }
+  return badges
+}
+
 async function writePluginData() {
   const data = await generatePluginData()
 
@@ -96,7 +120,11 @@ async function writePluginData() {
   }
 
   writeFileSync(join(OUTPUT_DIR, 'plugins.json'), JSON.stringify(data))
-  console.log('[generate-plugins-api] Generated /api/plugins.json')
+  writeFileSync(
+    join(OUTPUT_DIR, 'plugin-badges.json'),
+    JSON.stringify(generateBadgesData(data.plugins)),
+  )
+  console.log('[generate-plugins-api] Generated /api/plugins.json, /api/plugin-badges.json')
 }
 
 export function generatePluginsApi() {

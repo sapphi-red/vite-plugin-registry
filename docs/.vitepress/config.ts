@@ -35,6 +35,7 @@ const config = defineConfig<unknown>({
             { text: 'Plugin Discovery', link: '/guide/discovery' },
             { text: 'Compatibility Detection', link: '/guide/compatibility' },
             { text: 'Extended Metadata', link: '/guide/extended-metadata' },
+            { text: 'Compatibility Badges', link: '/guide/badges' },
             { text: 'Registry Patches', link: '/guide/patches' },
           ],
         },

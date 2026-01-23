@@ -1,0 +1,3 @@
+/api/badges package=:package tool=rollup https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.vite.dev%2Fapi%2Fplugin-badges.json&query=%24%5B%60:package%5D.rollup&logo=rollup.js&label=Rollup&color=9135FF 302
+/api/badges package=:package tool=rolldown https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.vite.dev%2Fapi%2Fplugin-badges.json&query=%24%5B%60:package%5D.rolldown&logo=rolldown&label=Rolldown&color=9135FF 302
+/api/badges package=:package tool=vite https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.vite.dev%2Fapi%2Fplugin-badges.json&query=%24%5B%60:package%5D.vite&logo=vite&label=Vite&color=9135FF 302
