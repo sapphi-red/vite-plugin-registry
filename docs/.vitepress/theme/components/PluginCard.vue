@@ -3,10 +3,37 @@ import type { RegistryPlugin } from '../../../plugins.data'
 import IconAlertTriangle from '~icons/lucide/alert-triangle'
 import IconInfo from '~icons/lucide/info'
 import IconX from '~icons/lucide/x'
+import IconBadgeCheck from '~icons/lucide/badge-check'
+import { computed } from 'vue'
 
 const props = defineProps<{
   plugin: RegistryPlugin
 }>()
+
+const officialPlugin = computed(() => {
+  if (props.plugin.name.startsWith('@vitejs/')) {
+    return {
+      type: 'vitejs',
+      color: 'purple',
+      tooltip: 'This plugin is an official plugin published by the Vite team',
+    }
+  }
+  if (props.plugin.name.startsWith('@rolldown/')) {
+    return {
+      type: 'rolldown',
+      color: 'orange',
+      tooltip: 'This plugin is an official plugin published by the Rolldown team',
+    }
+  }
+  if (props.plugin.name.startsWith('@rollup/')) {
+    return {
+      type: 'rollup',
+      color: 'red',
+      tooltip: 'This plugin is an official plugin published by the Rollup team',
+    }
+  }
+  return null
+})
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
@@ -31,9 +58,19 @@ function formatDownloads(count: number): string {
 <template>
   <article class="plugin-card">
     <header class="plugin-card-header">
-      <a :href="plugin.links.npm" target="_blank" rel="noopener" class="plugin-name-link">
-        <h3 class="plugin-name">{{ plugin.name }}</h3>
-      </a>
+      <div class="plugin-name-wrapper">
+        <a :href="plugin.links.npm" target="_blank" rel="noopener" class="plugin-name-link">
+          <h3 class="plugin-name">{{ plugin.name }}</h3>
+        </a>
+        <span
+          v-if="officialPlugin"
+          v-tooltip="officialPlugin.tooltip"
+          class="official-badge"
+          :class="`official-badge-${officialPlugin.color}`"
+        >
+          <IconBadgeCheck />
+        </span>
+      </div>
       <div class="plugin-badges">
         <span class="badge badge-version">v{{ plugin.version }}</span>
       </div>
@@ -119,9 +156,18 @@ function formatDownloads(count: number): string {
   margin-bottom: 0.75rem;
 }
 
+.plugin-name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 0;
+}
+
 .plugin-name-link {
   text-decoration: none;
   color: inherit;
+  min-width: 0;
 }
 
 .plugin-name-link:hover .plugin-name {
@@ -135,6 +181,35 @@ function formatDownloads(count: number): string {
   margin: 0;
   word-break: break-word;
   transition: color 0.25s;
+}
+
+.official-badge {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: help;
+  transition: opacity 0.2s;
+}
+
+.official-badge:hover {
+  opacity: 0.8;
+}
+
+.official-badge svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.official-badge-purple {
+  color: #a855f7;
+}
+
+.official-badge-orange {
+  color: #f97316;
+}
+
+.official-badge-red {
+  color: #ef4444;
 }
 
 .plugin-badges {
