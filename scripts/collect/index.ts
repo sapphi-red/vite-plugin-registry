@@ -115,19 +115,12 @@ function transformToRegistryPlugin(
   const baseCompatibility = parseCompatibility(versionData?.peerDependencies)
   const compatibility = mergeCompatibility(baseCompatibility, compatiblePackages ?? undefined)
 
-  // Validate npm URL (required field)
-  const npmUrl = searchResult.package.links.npm
-  const validatedNpmUrl = validateUrl(npmUrl)
-  if (!validatedNpmUrl) {
-    console.warn(`Warning: Invalid npm URL for ${searchResult.package.name}: ${npmUrl}`)
-  }
-
   return {
     name: searchResult.package.name,
     description: searchResult.package.description ?? '',
     keywords: searchResult.package.keywords ?? [],
     links: {
-      npm: validatedNpmUrl ?? npmUrl,
+      npm: searchResult.package.links.npm,
       repository: validateUrl(
         extractRepositoryUrl(versionData?.repository) ?? searchResult.package.links.repository,
       ),
