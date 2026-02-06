@@ -50,6 +50,8 @@ function extractRepositoryUrl(
 
 /**
  * Validate that a URL can be parsed and has http or https protocol
+ * @param url - The URL string to validate
+ * @returns The original URL if valid (parseable and has http/https protocol), undefined otherwise
  */
 function validateUrl(url: string | undefined): string | undefined {
   if (!url) return undefined
@@ -113,12 +115,19 @@ function transformToRegistryPlugin(
   const baseCompatibility = parseCompatibility(versionData?.peerDependencies)
   const compatibility = mergeCompatibility(baseCompatibility, compatiblePackages ?? undefined)
 
+  // Validate npm URL (required field)
+  const npmUrl = searchResult.package.links.npm
+  const validatedNpmUrl = validateUrl(npmUrl)
+  if (!validatedNpmUrl) {
+    console.warn(`Warning: Invalid npm URL for ${searchResult.package.name}: ${npmUrl}`)
+  }
+
   return {
     name: searchResult.package.name,
     description: searchResult.package.description ?? '',
     keywords: searchResult.package.keywords ?? [],
     links: {
-      npm: validateUrl(searchResult.package.links.npm) ?? searchResult.package.links.npm,
+      npm: validatedNpmUrl ?? npmUrl,
       repository: validateUrl(
         extractRepositoryUrl(versionData?.repository) ?? searchResult.package.links.repository,
       ),
