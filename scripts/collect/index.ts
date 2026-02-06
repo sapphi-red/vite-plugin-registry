@@ -49,6 +49,23 @@ function extractRepositoryUrl(
 }
 
 /**
+ * Validate that a URL can be parsed and has http or https protocol
+ */
+function validateUrl(url: string | undefined): string | undefined {
+  if (!url) return undefined
+
+  try {
+    const parsed = new URL(url)
+    if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+      return url
+    }
+    return undefined
+  } catch {
+    return undefined
+  }
+}
+
+/**
  * Parse peer dependencies to extract compatibility info
  */
 function parseCompatibility(peerDeps: Record<string, string> | undefined): Compatibility {
@@ -101,10 +118,11 @@ function transformToRegistryPlugin(
     description: searchResult.package.description ?? '',
     keywords: searchResult.package.keywords ?? [],
     links: {
-      npm: searchResult.package.links.npm,
-      repository:
+      npm: validateUrl(searchResult.package.links.npm) ?? searchResult.package.links.npm,
+      repository: validateUrl(
         extractRepositoryUrl(versionData?.repository) ?? searchResult.package.links.repository,
-      homepage: versionData?.homepage ?? searchResult.package.links.homepage,
+      ),
+      homepage: validateUrl(versionData?.homepage ?? searchResult.package.links.homepage),
     },
     version: latestVersion,
     updatedAt: packument.time[latestVersion] ?? searchResult.package.date,
